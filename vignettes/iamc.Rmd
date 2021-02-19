@@ -15,7 +15,7 @@ knitr::opts_chunk$set(collapse = TRUE, comment = "#>")
 
 ## Purpose and Functionality
 
-The iamc R package is a collection of R tools provided by the Integrated Assessment Modeling Consortium (IAMC) for data consistency checks. It can be used to make sure that a data set is in line with rules defined by a given project. These rules can be for instance a naming convention or unit convention for variables, but also qualitative measures such as lower or upper bounds for certain variables. Besides that the data can be validated against reference data.
+The iamc R package is a collection of R tools provided by the Integrated Assessment Modeling Consortium (IAMC) for data consistency checks. It can be used to make sure that a data set is in line with rules defined by a given project. These rules can be a naming convention or unit convention for variables, but also qualitative measures such as lower or upper bounds for certain variables. Besides that the data can be validated against reference data.
 
 ## Components
 Below follows a brief overview about the essential components of this package. 
