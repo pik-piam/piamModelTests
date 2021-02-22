@@ -1,6 +1,6 @@
 checkSums <- function(x, cfg) {
   sgroup <- extractVariableGroups(levels(x$variable),keepOrigNames = TRUE)
-  sgroup <- sgroup[grep(" \\(.*.\\)$",names(sgroup))]
+  sgroup <- sgroup[names(sgroup) %in% levels(x$variable)]
   failed <- NULL
 
   for (i in 1:length(sgroup)) {
@@ -13,6 +13,7 @@ checkSums <- function(x, cfg) {
             >
 
             0.00001 )
+
         ) failed <- c(failed,names(sgroup[i]))
   }
   return(list(message="%# sums do not add up",
