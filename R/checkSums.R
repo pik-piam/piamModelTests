@@ -5,6 +5,10 @@ checkSums <- function(x) {
   sgroup <- extractVariableGroups(levels(x$variable),keepOrigNames = TRUE)
   sgroup <- sgroup[names(sgroup) %in% unique(x$variable)]
   failed <- NULL
+  variable <- NULL
+  region <- NULL
+  value <- NULL
+  period <- NULL
 
   if (length(sgroup) > 0) for (i in 1:length(sgroup)) {
     if (!any(sgroup[[i]]%in%unique(x$variable))) {
