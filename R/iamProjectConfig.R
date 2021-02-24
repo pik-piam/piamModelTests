@@ -11,7 +11,7 @@
 #' iamProjectConfig()
 #'
 #' @importFrom utils read.csv
-#' @importFrom dplyr tbl_df
+#' @importFrom tibble as_tibble
 #' @export
 
 iamProjectConfig <- function(cfg="CDLINKS") {
@@ -29,5 +29,5 @@ iamProjectConfig <- function(cfg="CDLINKS") {
     cfg <- read.csv(cfg, sep=";", stringsAsFactors = FALSE)
   }
 
-  return(tbl_df(cfg))
+  return(as_tibble(cfg))
 }

@@ -1,0 +1,744 @@
+variable;unit;min;max;Definition
+Resources|Nitrogen|Cropland Budget|Inputs|+|Fertilizer;Mt Nr/yr;;;total nitrogen fertilizer use (organic + inorganic)
+Resources|Nitrogen|Cropland Budget|Inputs|+|Manure;Mt Nr/yr;;;total nitrogen fertilizer use (organic + inorganic)
+Resources|Nitrogen|Cropland Budget|Inputs|+|Manure From Stubble Grazing;Mt Nr/yr;;;total nitrogen fertilizer use (organic + inorganic)
+Resources|Nitrogen|Cropland Budget|Inputs|+|Recycled Aboveground Crop Residues;Mt Nr/yr;;;total nitrogen fertilizer use (organic + inorganic)
+Resources|Nitrogen|Cropland Budget|Inputs|+|Biological Fixation Freeliving Microorganisms;Mt Nr/yr;;;total nitrogen fertilizer use (organic + inorganic)
+Resources|Nitrogen|Cropland Budget|Inputs|+|Biological Fixation Symbiotic Crops;Mt Nr/yr;;;total nitrogen fertilizer use (organic + inorganic)
+Resources|Nitrogen|Cropland Budget|Inputs|+|Fertilizer;Mt Nr/yr;;;Total nitrogen inputs in inorganic fertilizer use
+Resources|Nitrogen|Cropland Budget|Inputs|+|Manure;Mt Nr/yr;;;Total nitrogen inputs in organic fertilizer use
+Resources|Nitrogen|Cropland Budget|Inputs|+|Manure From Stubble Grazing;Mt Nr/yr;;;Total nitrogen inputs in organic fertilizer use
+Resources|Nitrogen|Cropland Budget|Inputs|+|Recycled Aboveground Crop Residues;Mt Nr/yr;;;Total nitrogen inputs in organic fertilizer use
+Resources|Nitrogen|Cropland Budget|Inputs|+|Biological Fixation Freeliving Microorganisms;Mt Nr/yr;;;Nitrogen inputs on cropland from biological fixation
+Resources|Nitrogen|Cropland Budget|Inputs|+|Biological Fixation Symbiotic Crops;Mt Nr/yr;;;Nitrogen inputs on cropland from biological fixation
+Resources|Nitrogen|Cropland Budget|Balance|+|Nutrient Surplus;Mt Nr/yr;;;Nitrogen surplus of soil inputs over soil withdrawals on cropland
+Productivity|Yield|+|Bioenergy crops;t DM/ha;;;aggregated yield of 2nd generation energy crops (e.g.,switchgrass,miscanthus,fast-growing wood species)
+Productivity|Yield|Crops|+|Cereals;t DM/ha;;;yield of cereal production per until of area (used here as repreentative crop to measure yield assumptions)
+Productivity|Yield|Crops|+|Oil crops;t DM/ha;;;aggregated yield of Oilcrops (e.g. soybean,rapeseed,groundnut,sunflower,oilpalm)
+Productivity|Yield|Crops|+|Sugar crops;t DM/ha;;;aggregated yield of Sugarcrops (e.g. sugarbeet,sugarcane)
+Emi|CO2|Carbon Capture and Storage;Mt CO2/yr;;;total carbon dioxide emissions captured and stored in geological deposits (e.g. in depleted oil and gas fields,unmined coal seams,saline aquifers) and the deep ocean,stored amounts should be reported as positive numbers
+Emi|CO2|Carbon Capture and Storage|Biomass|Supply|w/ couple prod;Mt CO2/yr;;;total carbon dioxide emissions captured from bioenergy use and stored in geological deposits (e.g. in depleted oil and gas fields,unmined coal seams,saline aquifers) and the deep ocean,stored amounts should be reported as positive numbers
+Emi|CO2|Carbon Capture and Storage|Biomass|Energy|Demand|Industry;Mt CO2/yr;;;total carbon dioxide emissions captured from bioenergy use and stored in geological deposits (e.g. in depleted oil and gas fields,unmined coal seams,saline aquifers) and the deep ocean,stored amounts should be reported as positive numbers
+Emi|CO2|Carbon Capture and Storage|Biomass|Supply|w/ couple prod;Mt CO2/yr;;;total carbon dioxide emissions captured from bioenergy use and stored in geological deposits (e.g. in depleted oil and gas fields,unmined coal seams,saline aquifers) and the deep ocean,stored amounts should be reported as positive numbers
+Emi|CO2|Carbon Capture and Storage|Biomass|Energy|Demand|Industry;Mt CO2/yr;;;total carbon dioxide emissions captured from bioenergy use and stored in geological deposits (e.g. in depleted oil and gas fields,unmined coal seams,saline aquifers) and the deep ocean,stored amounts should be reported as positive numbers
+Emi|CO2|Carbon Capture and Storage|Biomass|Energy|Demand|Industry;Mt CO2/yr;;;total carbon dioxide emissions captured from bioenergy use in industry (IPCC category 1A2) and stored in geological deposits (e.g. in depleted oil and gas fields,unmined coal seams,saline aquifers) and the deep ocean,stored amounts should be reported as positive numbers
+Emi|CO2|Carbon Capture and Storage|Biomass|Supply|w/ couple prod;Mt CO2/yr;;;total carbon dioxide emissions captured from bioenergy use and stored in geological deposits (e.g. in depleted oil and gas fields,unmined coal seams,saline aquifers) and the deep ocean,stored amounts should be reported as positive numbers
+Emi|CO2|Carbon Capture and Storage|Biomass|Supply|Electricity|w/ couple prod;Mt CO2/yr;;;total carbon dioxide emissions captured from bioenergy use in electricity production (part of IPCC category 1A1a) and stored in geological deposits (e.g. in depleted oil and gas fields,unmined coal seams,saline aquifers) and the deep ocean,stored amounts should be reported as positive numbers
+Emi|CO2|Carbon Capture and Storage|Biomass|Supply|Gases|w/ couple prod;Mt CO2/yr;;;total carbon dioxide emissions captured from bioenergy use in gaseous fuel production,excl. hydrogen (part of IPCC category 1A) and stored in geological deposits (e.g. in depleted oil and gas fields,unmined coal seams,saline aquifers) and the deep ocean,stored amounts should be reported as positive numbers
+Emi|CO2|Carbon Capture and Storage|Biomass|Supply|Hydrogen|w/ couple prod;Mt CO2/yr;;;total carbon dioxide emissions captured from bioenergy use in hydrogen production (part of IPCC category 1A) and stored in geological deposits (e.g. in depleted oil and gas fields,unmined coal seams,saline aquifers) and the deep ocean,stored amounts should be reported as positive numbers
+Emi|CO2|Carbon Capture and Storage|Biomass|Supply|Liquids|w/ couple prod;Mt CO2/yr;;;total carbon dioxide emissions captured from bioenergy use in liquid fuel production (part of IPCC category 1A) and stored in geological deposits (e.g. in depleted oil and gas fields,unmined coal seams,saline aquifers) and the deep ocean,stored amounts should be reported as positive numbers
+Emi|CO2|Carbon Capture and Storage|Biomass|Supply|Heat|w/ couple prod;Mt CO2/yr;;;total carbon dioxide emissions captured from bioenergy use in other energy supply (part of IPCC category 1A) and stored in geological deposits (e.g. in depleted oil and gas fields,unmined coal seams,saline aquifers) and the deep ocean,stored amounts should be reported as positive numbers
+Emi|CO2|Carbon Capture and Storage|Fossil|Energy|Demand|Industry;Mt CO2/yr;;;total carbon dioxide emissions captured from fossil fuel use in industry (IPCC category 1A2) and stored in geological deposits (e.g. in depleted oil and gas fields,unmined coal seams,saline aquifers) and the deep ocean,stored amounts should be reported as positive numbers
+Emi|CO2|Carbon Capture and Storage|Fossil|Pe2Se;Mt CO2/yr;;;total carbon dioxide emissions captured from fossil fuel use in energy supply (IPCC category 1A) and stored in geological deposits (e.g. in depleted oil and gas fields,unmined coal seams,saline aquifers) and the deep ocean,stored amounts should be reported as positive numbers
+Emi|CO2|Carbon Capture and Storage|IndustryCCS|Process;Mt CO2/yr;;;total carbon dioxide emissions captured from industrial processes (e.g.,cement production,but not from fossil fuel burning) use and stored in geological deposits (e.g. in depleted oil and gas fields,unmined coal seams,saline aquifers) and the deep ocean,stored amounts should be reported as positive numbers
+Emi|CO2|CDR|DACCS;Mt CO2/yr;;;total carbon dioxide sequestered through direct air capture
+Emi|CO2|CDR|EW;Mt CO2/yr;;;total carbon dioxide sequestered through enhanced weathering
+Emissions|CO2|Land|Land-use Change|+|Regrowth;Mt CO2/yr;-1;;total carbon dioxide sequestered through land-based sinks (e.g.,afforestation,soil carbon enhancement,biochar)
+Emissions|CO2|Land|Land-use Change|Regrowth|CO2-price AR;Mt CO2/yr;-1;;total carbon dioxide sequestered through afforestation
+Emissions|CO2|Land|Land-use Change|Regrowth|NPI_NDC AR;Mt CO2/yr;-1;;total carbon dioxide sequestered through afforestation
+Emissions|CO2|Land|Land-use Change|Regrowth|Timber Plantations;Mt CO2/yr;-1;;total carbon dioxide sequestered through afforestation
+Emissions|CO2|Land|Land-use Change|Regrowth|Other;Mt CO2/yr;-1;;total carbon dioxide sequestered through other land-based mitigation techniques
+Carbon Sequestration|CCU;Mt CO2/yr;;;total of CO2 captured and utilized within industry,from both fossil and biomass based sources
+Tech|Liquids|Oil|Capital Costs;US$2005/kW;1.10774;;capital cost of a new oil refining plant. If more than technology in this category is modelled,modellers should report capital costs for the technology that is used most
+Tech|Liquids|Coal|w/o CCS|Capital Costs;US$2005/kW;1.10774;;capital cost of a new coal to liquids plant w/o CCS. If more than technology in this category is modelled,modellers should report capital costs for the technology that is used most
+Tech|Liquids|Coal|w/ CCS|Capital Costs;US$2005/kW;1.10774;;capital cost of a new coal to liquids plant with CCS. If more than technology in this category is modelled,modellers should report capital costs for the technology that is used most
+Tech|Liquids|Biomass|Biofuel|Biodiesel|w/o CCS|Capital Costs;US$2005/kW;1.10774;;capital cost of a new biomass to liquids plant w/o CCS. If more than technology in this category is modelled,modellers should report capital costs for the technology that is used most
+Tech|Liquids|Biomass|Biofuel|BioFTRC|w/ CCS|Capital Costs;US$2005/kW;1.10774;;capital cost of a new biomass to liquids plant with CCS. If more than technology in this category is modelled,modellers should report capital costs for the technology that is used most
+Tech|Hydrogen|Gas|w/o CCS|Capital Costs;US$2005/kW;1.10774;;capital cost of a new gas to hydrogen plant w/o CCS. If more than technology in this category is modelled,modellers should report capital costs for the technology that is used most
+Tech|Hydrogen|Gas|w/ CCS|Capital Costs;US$2005/kW;1.10774;;capital cost of a new gas to hydrogen plant with CCS. If more than technology in this category is modelled,modellers should report capital costs for the technology that is used most
+Tech|Hydrogen|Electricity|Capital Costs;US$2005/kW;1.10774;;capital cost of a new hydrogen-by-electrolysis plant. If more than technology in this category is modelled,modellers should report capital costs for the technology that is used most
+Tech|Hydrogen|Coal|w/o CCS|Capital Costs;US$2005/kW;1.10774;;capital cost of a new coal to hydrogen plant w/o CCS. If more than technology in this category is modelled,modellers should report capital costs for the technology that is used most
+Tech|Hydrogen|Coal|w/ CCS|Capital Costs;US$2005/kW;1.10774;;capital cost of a new coal to hydrogen plant with CCS. If more than technology in this category is modelled,modellers should report capital costs for the technology that is used most
+Tech|Hydrogen|Biomass|w/o CCS|Capital Costs;US$2005/kW;1.10774;;capital cost of a new biomass to hydrogen plant w/o CCS. If more than technology in this category is modelled,modellers should report capital costs for the technology that is used most
+Tech|Hydrogen|Biomass|w/ CCS|Capital Costs;US$2005/kW;1.10774;;capital cost of a new biomass to hydrogen plant with CCS. If more than technology in this category is modelled,modellers should report capital costs for the technology that is used most
+Tech|Gases|Coal|w/o CCS|Capital Costs;US$2005/kW;1.10774;;capital cost of a new coal to gas plant w/o CCS. If more than technology in this category is modelled,modellers should report capital costs for the technology that is used most
+Tech|Gases|Biomass|w/o CCS|Capital Costs;US$2005/kW;1.10774;;capital cost of a new biomass to gas plant w/o CCS. If more than technology in this category is modelled,modellers should report capital costs for the technology that is used most
+Tech|Electricity|Wind|Capital Costs;US$2005/kW;1.10774;;capital cost of a new offshore wind power plants. If more than technology in this category is modelled,modellers should report capital costs for the technology that is used most
+Tech|Electricity|Solar|PV|Capital Costs;US$2005/kW;1.10774;;capital cost of a new solar PV units. If more than technology in this category is modelled,modellers should report capital costs for the technology that is used most
+Tech|Electricity|Solar|CSP|Capital Costs;US$2005/kW;1.10774;;capital cost of a new concentrated solar power plant. If more than technology in this category is modelled,modellers should report capital costs for the technology that is used most
+Tech|Electricity|Nuclear|Capital Costs;US$2005/kW;1.10774;;capital cost of a new nuclear power plants. If more than technology in this category is modelled,modellers should report capital costs for the technology that is used most
+Tech|Electricity|Hydro|Capital Costs;US$2005/kW;1.10774;;capital cost of a new hydropower plant. If more than technology in this category is modelled,modellers should report capital costs for the technology that is used most
+Tech|Electricity|Geothermal|Capital Costs;US$2005/kW;1.10774;;capital cost of a new geothermal power plant. If more than technology in this category is modelled,modellers should report capital costs for the technology that is used most
+Tech|Electricity|Gas|CC|w/o CCS|Capital Costs;US$2005/kW;1.10774;;capital cost of a new gas power plant w/o CCS. If more than technology in this category is modelled,modellers should report capital costs for the technology that is used most
+Tech|Electricity|Gas|CCC|w/ CCS|Capital Costs;US$2005/kW;1.10774;;capital cost of a new gas power plant with CCS. If more than technology in this category is modelled,modellers should report capital costs for the technology that is used most
+Tech|Electricity|Coal|CHP|w/o CCS|Capital Costs;US$2005/kW;1.10774;;capital cost of a new coal power plant w/o CCS. If more than technology in this category is modelled,modellers should report capital costs for the technology that is used most
+Tech|Electricity|Coal|IGCCC|w/ CCS|Capital Costs;US$2005/kW;1.10774;;capital cost of a new coal power plant with CCS. If more than technology in this category is modelled,modellers should report capital costs for the technology that is used most
+Tech|Electricity|Biomass|CHP|w/o CCS|Capital Costs;US$2005/kW;1.10774;;capital cost of a new biomass power plant w/o CCS. If more than technology in this category is modelled,modellers should report capital costs for the technology that is used most
+Tech|Electricity|Biomass|IGCCC|w/ CCS|Capital Costs;US$2005/kW;1.10774;;capital cost of a new biomass power plant with CCS. If more than technology in this category is modelled,modellers should report capital costs for the technology that is used most
+Concentration|CH4;ppb;;;atmospheric concentration of methane
+Concentration|CO2;ppm;;;atmospheric concentration of carbon dioxide
+Concentration|N2O;ppb;;;atmospheric concentration of nitrous oxide
+Forcing;W/m2;;;radiative forcing from all greenhouse gases and forcing agents,including contributions from albedo change,nitrate,and mineral dust
+Forcing|Aerosol;W/m2;;;total radiative forcing from aerosols via both aerosol-cloud and aerosol-radiative effects
+Forcing|Aerosol|BC;W/m2;;;radiative forcing from black carbon via aerosol-radiative effects
+Forcing|Aerosol|Cloud Indirect;W/m2;;;radiative forcing from indirect effects of all anthropogenic aerosols on clouds (i.e. aerosol-cloud effects)
+Forcing|Aerosol|OC;W/m2;;;radiative forcing from organic carbon via aerosol-radiative effects
+Forcing|Aerosol|Other;W/m2;;;total radiative forcing from aerosols not covered in the other categories (including aerosols from biomass burning) via aerosol-radiative effects
+Forcing|Aerosol|Sulfate Direct;W/m2;;;radiative forcing from direct sulfate effects (i.e. aerosol-radiative effects)
+Forcing|Albedo Change and Mineral Dust;W/m2;;;total radiative forcing from albedo change and mineral dust
+Forcing|CH4;W/m2;;;total radiative forcing from CH4
+Forcing|CO2;W/m2;;;total radiative forcing from CO2
+Forcing|F-Gases;W/m2;;;total radiative forcing from F-gases
+Forcing|Kyoto Gases;W/m2;;;radiative forcing of the six Kyoto gases (CO2,CH4,N2O,SF6,HFCs,PFCs)
+Forcing|Montreal Gases;W/m2;;;total radiative forcing from Montreal gases
+Forcing|N2O;W/m2;;;total radiative forcing from N2O
+Forcing|Other;W/m2;;;total radiative forcing from factors not covered in other categories (including stratospheric ozone and stratospheric water vapor)
+Forcing|Tropospheric Ozone;W/m2;;;total radiative forcing from tropospheric ozone
+Temperature|Global Mean;K;;;change in global mean surface temperature relative to pre-industrial,reported by the model. Please specify which climate model was used in comments tab
+Investments;billion US$2005/yr;1.10774;;net additions to the physical capital stock
+Consumption;billion US$2005/yr;1.10774;;total consumption of all goods,by all consumers in a region
+GDP|MER;billion US$2005/yr;1.10774;;GDP at market exchange rate
+GDP|PPP;billion US$2005/yr;1.10774;;GDP at purchasing power parity
+Interest Rate t/(t-1)|Real;;100;;Real interest rate or return on capital that is relevant for energy system investments
+Policy Cost|Additional Total Energy System Cost;billion US$2005/yr;1.10774;;additional energy system cost associated with the policy
+Policy Cost|Consumption + Current Account Loss;billion US$2005/yr;-1.10774;glo;consumption loss in a policy scenario compared to the corresponding baseline (losses should be reported as negative numbers)
+Policy Cost|GDP Loss;billion US$2005/yr;-1.10774;;GDP loss in a policy scenario,including international transfers,compared to the corresponding baseline (losses should be reported as negative numbers). Transfers included if present
+Policy Cost|GDP Loss|w/o transfers;billion US$2005/yr;-1.10774;;GDP loss (without international transfers) in a policy scenario compared to the corresponding baseline (losses should be reported as negative numbers).
+SDG|SDG02|Agricultural commodity price index;index wrt 2010;;;weighted average price index of non-energy crops and livestock products
+Price|Carbon;US$2005/t CO2;1.10774;;price of carbon (for regional aggregrates the weighted price of carbon by subregion should be used)
+Price|Final Energy|Electricity|Buildings;US$2005/GJ;1.10774;;electricity price at the final level in the residential sector. Prices should include the effect of carbon prices.
+Price|Final Energy|Gases|Buildings;US$2005/GJ;1.10774;;natural gas price at the final level in the residential sector. Prices should include the effect of carbon prices.
+Price|Final Energy|Heating Oil|Buildings;US$2005/GJ;1.10774;;light fuel oil price at the final level in the residential sector. Prices should include the effect of carbon prices.
+Price|Final Energy|Solids|Buildings;US$2005/GJ;1.10774;;biomass price at the final level in the residential sector. Prices should include the effect of carbon prices.
+Price|Final Energy|Solids|Buildings;US$2005/GJ;1.10774;;coal price at the final level in the residential sector. Prices should include the effect of carbon prices.
+Price|Biomass|World Market;US$2005/GJ;1.10774;;biomass producer price
+Price|Coal|World Market;US$2005/GJ;1.10774;;coal price at the primary level (i.e. the spot price at the global or regional market)
+Price|Gas|World Market;US$2005/GJ;1.10774;;natural gas price at the primary level (i.e. the spot price at the global or regional market)
+Price|Oil|World Market;US$2005/GJ;1.10774;;crude oil price at the primary level (i.e. the spot price at the global or regional market)
+Price|Secondary Energy|Electricity|Moving Avg;US$2005/GJ;1.10774;;electricity price at the secondary level,i.e. for large scale consumers (e.g. aluminum production).  Prices should include the effect of carbon prices.
+Price|Secondary Energy|Gases;US$2005/GJ;1.10774;;natural gas price at the secondary level,i.e. for large scale consumers (e.g. gas power plant). Prices should include the effect of carbon prices.
+Price|Secondary Energy|Hydrogen;US$2005/GJ;1.10774;;hydrogen price at the secondary level. Prices should include the effect of carbon prices
+Price|Secondary Energy|Liquids;US$2005/GJ;1.10774;;liquid fuel price at the secondary level,i.e. petrol,diesel,or weighted average
+Price|Secondary Energy|Liquids|Biomass;US$2005/GJ;1.10774;;biofuel price at the secondary level,i.e. for biofuel consumers
+Price|Light Fuel Oil|Secondary Level;US$2005/GJ;1.10774;;light fuel oil price at the secondary level,i.e. for large scale consumers (e.g. oil power plant). Prices should include the effect of carbon prices.
+Emi|BC;Mt BC/yr;;;total black carbon emissions
+Emi|BC|Land Use;Mt BC/yr;;;black carbon emissions from agriculture,forestry and other land use (IPCC category 3)
+Emi|BC|Land Use|Agriculture;Mt BC/yr;;;BC|AFOLU|Agric emissions from agriculture
+Emi|BC|Energy Supply and Demand;Mt BC/yr;;;black carbon emissions from energy use on supply and demand side,including fugitive emissions from fuels (IPCC category 1A,1B)
+Emi|BC|Energy Demand|ResCom;Mt BC/yr;;;black carbon emissions from fuel combustion in residential,commercial,institutional sectors and agriculture (IPCC category 1A4a,1A4b)
+Emi|BC|Energy Demand|Industry;Mt BC/yr;;;black carbon emissions from fuel combustion in industry (IPCC category 1A2)
+Emi|BC|Energy Demand|Transport;Mt BC/yr;;;black carbon emissions from fuel combustion in transportation sector (IPCC category 1A3),excluding pipeline emissions (IPCC category 1A3ei)
+Emi|BC|Energy Supply;Mt BC/yr;;;black carbon emissions from fuel combustion and fugitive emissions from fuels: electricity and heat production and distribution (IPCC category 1A1a),other energy conversion (e.g. refineries,synfuel production,solid fuel processing,IPCC category 1Ab,1Ac),incl. pipeline transportation (IPCC category 1A3ei),fugitive emissions from fuels (IPCC category 1B) and emissions from carbon dioxide transport and storage (IPCC category 1C)
+Emi|BC|Solvents;Mt BC/yr;;;black carbon emissions from other sources (please provide a definition of other sources in this category in the 'comments' tab)
+Emi|BC|Waste;Mt BC/yr;;;
+Emi|CH4;Mt CH4/yr;;;total CH4 emissions
+Emi|CH4|Land Use;Mt CH4/yr;;;CH4 emissions from agriculture,forestry and other land use (IPCC category 3)
+Emi|CH4|Land Use;Mt CH4/yr;;;CH4|AFOLU|Agric emissions from agriculture
+Emi|CH4|Land Use|+|Enteric fermentation;Mt CH4/yr;;;
+Emi|CH4|Land Use|+|Animal waste management;Mt CH4/yr;;;
+Emi|CH4|Land Use|+|Enteric fermentation;Mt CH4/yr;;;
+Emi|CH4|Land Use|+|Animal waste management;Mt CH4/yr;;;
+Emi|CH4|Land Use|+|Rice;Mt CH4/yr;;;
+Emi|CH4|Energy Supply and Demand;Mt CH4/yr;;;CH4 emissions from energy use on supply and demand side,including fugitive emissions from fuels (IPCC category 1A,1B)
+Emi|CH4|Energy Supply;Mt CH4/yr;;;CH4 emissions from fuel combustion and fugitive emissions from fuels: electricity and heat production and distribution (IPCC category 1A1a),other energy conversion (e.g. refineries,synfuel production,solid fuel processing,IPCC category 1Ab,1Ac),incl. pipeline transportation (IPCC category 1A3ei),fugitive emissions from fuels (IPCC category 1B) and emissions from carbon dioxide transport and storage (IPCC category 1C)
+Emi|CH4|Other;Mt CH4/yr;;;CH4 emissions from other sources (please provide a definition of other sources in this category in the 'comments' tab)
+Emi|CH4|Waste;Mt CH4/yr;;;
+Emi|CO;Mt CO/yr;;;total CO emissions
+Emi|CO2;Mt CO2/yr;;;total net-CO2 emissions from all sources
+Emi|CO2|Land-Use Change;Mt CO2/yr;;;CO2 emissions from agriculture,forestry and other land use (IPCC category 3)
+Emi|CO2|Energy;Mt CO2/yr;;;CO2 emissions from energy use on supply and demand side (IPCC category 1A,1B)
+Emi|CO2|Fossil Fuels and Industry;Mt CO2/yr;;;CO2 emissions from energy use on supply and demand side (IPCC category 1A,1B) and from industrial processes (IPCC categories 2A,B,C,E)
+Emi|CO2|Energy|Demand;Mt CO2/yr;;;CO2 emissions from fuel combustion in industry (IPCC category 1A2),residential,commercial,institutional sectors and agriculture,forestry,fishing (AFOFI) (IPCC category 1A4a,1A4b,1A4c),and transportation sector (IPCC category 1A3),excluding pipeline emissions (IPCC category 1A3ei)
+Emi|CO2|Buildings|Direct;Mt CO2/yr;;;CO2 emissions from fuel combustion in residential,commercial,institutional sectors (IPCC category 1A4a,1A4b)
+Emi|CO2|Industry|Direct;Mt CO2/yr;;;CO2 emissions from fuel combustion in industry (IPCC category 1A2)
+Emi|CO2|Transport|Demand;Mt CO2/yr;;;CO2 emissions from fuel combustion in transportation sector (IPCC category 1A3),excluding pipeline emissions (IPCC category 1A3ei)
+Emi|CO2|Transport|Pass|Aviation|Domestic|Demand;Mt CO2/yr;;;carbon dioxide emissions from transport by passenger aviation mode
+Emi|CO2|Transport|Freight|Short-Medium Distance|Demand;Mt CO2/yr;;;CO2 emissions from fuel combustion in freight transportation sector (part of IPCC category 1A3),excluding pipeline emissions (IPCC category 1A3ei)
+Emi|CO2|Transport|Freight|Navigation|Demand;Mt CO2/yr;;;carbon dioxide emissions from transport by freight maritime mode
+Emi|CO2|Transport|Pass|Short-Medium Distance|Demand;Mt CO2/yr;;;CO2 emissions from fuel combustion in passenger transportation sector (part of IPCC category 1A3)
+Emi|CO2|Transport|Rail|Demand;Mt CO2/yr;;;carbon dioxide emissions from transport by rail mode
+Emi|CO2|Transport|Freight|Rail|Demand;Mt CO2/yr;;;carbon dioxide emissions from transport by freight rail mode
+Emi|CO2|Transport|Pass|Rail|Demand;Mt CO2/yr;;;carbon dioxide emissions from transport by passenger rail mode
+Emi|CO2|Transport|Road|Demand;Mt CO2/yr;;;carbon dioxide emissions from road transport vehicles
+Emi|CO2|Transport|Freight|Road|Demand;Mt CO2/yr;;;carbon dioxide emissions from road freight transport vehicles
+Emi|CO2|Transport|Pass|Road|Demand;Mt CO2/yr;;;carbon dioxide emissions from road transport passenger vehicles
+Emi|CO2|Transport|Pass|Road|LDV|Two-Wheelers|Demand;Mt CO2/yr;;;carbon dioxide emissions from road transport passenger 2W&3W vehicles
+Emi|CO2|Transport|Pass|Road|Bus|Demand;Mt CO2/yr;;;carbon dioxide emissions from road transport passenger Buses
+Emi|CO2|Transport|Pass|Road|LDV|Demand;Mt CO2/yr;;;carbon dioxide emissions from road transport passenger LDVs
+Emi|CO2|Energy|Supply;Mt CO2/yr;;;CO2 emissions from fuel combustion and fugitive emissions from fuels: electricity and heat production and distribution (IPCC category 1A1a),other energy conversion (e.g. refineries,synfuel production,solid fuel processing,IPCC category 1Ab,1Ac),incl. pipeline transportation (IPCC category 1A3ei),fugitive emissions from fuels (IPCC category 1B) and emissions from carbon dioxide transport and storage (IPCC category 1C)
+Emi|CO2|Energy|Supply|Electricity;Mt CO2/yr;;;CO2 emissions from electricity and CHP production and distribution (IPCC category 1A1ai and 1A1aii)
+Emi|CO2|Energy|Supply|Gases|w/ couple prod|Before IndustryCCS;Mt CO2/yr;;;CO2 emissions from fuel combustion and fugitive emissions from fuels: gaseous fuel extraction and processing (e.g. natural gas extraction production,IPCC category 1B2b,parts of 1A1cii)
+Emi|CO2|Energy|Supply|Heat|w/ couple prod;Mt CO2/yr;;;CO2 emissions from heat production and distribution (IPCC category 1A1aiii)
+Emi|CO2|Energy|Supply|Liquids|w/ couple prod|Before IndustryCCS;Mt CO2/yr;;;CO2 emissions from fuel combustion and fugitive emissions from fuels: liquid fuel extraction and processing (e.g. oil production,refineries,synfuel production,IPCC category 1A1b,parts of 1A1cii,1B2a)
+Emi|CO2|Energy|Supply|Hydrogen|w/ couple prod;Mt CO2/yr;;;CO2 emissions from fuel combustion in other energy supply sectors (please provide a definition of other sources in this category in the 'comments' tab)
+Emi|CO2|Energy|Supply|Solids|w/ couple prod|Before IndustryCCS;Mt CO2/yr;;;CO2 emissions from fuel combustion and fugitive emissions from fuels: solid fuel extraction and processing (IPCC category 1A1ci,parts of 1A1cii,1B1)
+Emi|CO2|Fossil Fuels and Industry|Cement process;Mt CO2/yr;;;CO2 emissions from industrial processes (IPCC categories 2A,B,C,E)
+Emi|CO|Land Use;Mt CO/yr;;;Land Use based carbon monoxide emissions
+Emi|CO|Energy Supply and Demand;Mt CO/yr;;;carbon monoxide emissions from energy use on supply and demand side,including fugitive emissions from fuels (IPCC category 1A,1B)
+Emi|CO|Energy Demand|ResCom;Mt CO/yr;;;carbon monoxide emissions from Combustion in Residential and Commercial/Institutional Sectors (IPCC 1A4A,1A4B)
+Emi|CO|Energy Demand|Industry;Mt CO/yr;;;carbon monoxide emissions from Combustion in industry (IPCC 1A2) and industrial processes (IPCC 2C1-2C5)
+Emi|CO|Energy Demand|Transport;Mt CO/yr;;;carbon monoxide emissions from Combustion in Transportation Sector (IPCC category 1A3)
+Emi|CO|Energy Supply;Mt CO/yr;;;carbon monoxide emissions from Extraction and Distribution of Fossil Fuels (including fugitive emissions,IPCC category 1B)
+Emi|CO|Waste;Mt CO/yr;;;
+Emi|F-Gases;Mt CO2-equiv/yr;;;total F-gas emissions,including sulfur hexafluoride (SF6),hydrofluorocarbons (HFCs),perfluorocarbons (PFCs) (preferably use 100-year GWPs from AR4 for aggregation of different F-gases
+Emi|HFC;kt HFC134a-equiv/yr;;;total emissions of hydrofluorocarbons (HFCs),provided as aggregate HFC134a-equivalents
+Emi|Kyoto Gases;Mt CO2-equiv/yr;;;total Kyoto GHG emissions,including CO2,CH4,N2O and F-gases (preferably use 100-year GWPs from AR4 for aggregation of different gases
+Emi|N2O;kt N2O/yr;;;total N2O emissions
+Emi|N2O|Land Use;kt N2O/yr;;;N2O emissions from agriculture,forestry and other land use (IPCC category 3)
+Emi|N2O|Land Use;kt N2O/yr;;;N2O|AFOLU|Agric emissions from agriculture
+Emi|N2O|Land Use|+|Animal Waste Management;kt N2O/yr;;;
+Emi|N2O|Land Use|+|Agricultural Soils;kt N2O/yr;;;
+Emi|N2O|Energy Supply and Demand;kt N2O/yr;;;N2O emissions from energy use on supply and demand side,including fugitive emissions from fuels (IPCC category 1A,1B)
+Emi|N2O|Energy Demand|Transport;kt N2O/yr;;;N2O emissions from fuel combustion in the transportation sector (part of IPCC category 1A3),excluding pipeline emissions (IPCC category 1A3ei)
+Emi|N2O|Industry;kt N2O/yr;;;N2O emissions from industrial processes
+Emi|N2O|Waste;kt N2O/yr;;;
+Emi|NH3;Mt NH3/yr;;;total ammonium (NH3) emissions
+Emi|NH3|Land Use;Mt NH3/yr;;;land use based ammonia Emissions
+Emi|NH3|Energy Supply and Demand;Mt NH3/yr;;;ammonia emissions from energy use on supply and demand side,including fugitive emissions from fuels (IPCC category 1A,1B)
+Emi|NH3|Energy Demand|ResCom;Mt NH3/yr;;;ammonia Emissions from Combustion in Residential and Commercial/Institutional Sectors (IPCC 1A4A,1A4B)
+Emi|NH3|Energy Demand|Industry;Mt NH3/yr;;;ammonia Emissions from Combustion in industry (IPCC 1A2) and industrial processes (IPCC 2C1-2C5)
+Emi|NH3|Energy Demand|Transport;Mt NH3/yr;;;ammonia Emissions from Combustion in Transportation Sector (IPCC category 1A3)
+Emi|NH3|Energy Supply;Mt NH3/yr;;;ammonia Emissions from Extraction and Distribution of Fossil Fuels (including fugitive Emissions,IPCC category 1B)
+Emi|NH3|Waste;Mt NH3/yr;;;
+Emi|NOX;Mt NOX/yr;;;total NOx emissions
+Emi|NOX|Land Use;Mt NOX/yr;;;NOx emissions from agriculture,forestry and other land use (IPCC category 3)
+Emi|NOX|Energy Supply and Demand;Mt NOX/yr;;;NOx emissions from energy use on supply and demand side,including fugitive emissions from fuels (IPCC category 1A,1B)
+Emi|NOX|Energy Demand|ResCom;Mt NOX/yr;;;NOx emissions from fuel combustion in residential,commercial,institutional sectors (IPCC category 1A4a,1A4b)
+Emi|NOX|Energy Demand|Industry;Mt NOX/yr;;;NOx emissions from fuel combustion in industry (IPCC category 1A2)
+Emi|NOX|Energy Demand|Transport;Mt NOX/yr;;;NOx emissions from fuel combustion in transportation sector (IPCC category 1A3),excluding pipeline emissions (IPCC category 1A3ei)
+Emi|NOX|Energy Supply;Mt NOX/yr;;;NOx emissions from fuel combustion and fugitive emissions from fuels: electricity and heat production and distribution (IPCC category 1A1a),other energy conversion (e.g. refineries,synfuel production,solid fuel processing,IPCC category 1Ab,1Ac),incl. pipeline transportation (IPCC category 1A3ei),fugitive emissions from fuels (IPCC category 1B) and emissions from carbon dioxide transport and storage (IPCC category 1C)
+Emi|NOX|Waste;Mt NOX/yr;;;
+Emi|OC;Mt OC/yr;;;total organic carbon emissions
+Emi|OC|Land Use;Mt OC/yr;;;organic carbon emissions from agriculture,forestry and other land use (IPCC category 3)
+Emi|OC|Energy Supply and Demand;Mt OC/yr;;;organic carbon emissions from energy use on supply and demand side,including fugitive emissions from fuels (IPCC category 1A,1B)
+Emi|OC|Energy Demand|ResCom;Mt OC/yr;;;organic carbon emissions from fuel combustion in residential,commercial,institutional sectors (IPCC category 1A4a,1A4b)
+Emi|OC|Energy Demand|Industry;Mt OC/yr;;;organic carbon emissions from fuel combustion in industry (IPCC category 1A2)
+Emi|OC|Energy Demand|Transport;Mt OC/yr;;;organic carbon emissions from fuel combustion in transportation sector (IPCC category 1A3),excluding pipeline emissions (IPCC category 1A3ei)
+Emi|OC|Energy Supply;Mt OC/yr;;;organic carbon emissions from fuel combustion and fugitive emissions from fuels: electricity and heat production and distribution (IPCC category 1A1a),other energy conversion (e.g. refineries,synfuel production,solid fuel prorganic carbonessing,IPCC category 1Ab,1Ac),incl. pipeline transportation (IPCC category 1A3ei),fugitive emissions from fuels (IPCC category 1B) and emissions from carbon dioxide transport and storage (IPCC category 1C)
+Emi|OC|Waste;Mt OC/yr;;;
+Emi|PFC;kt CF4-equiv/yr;;;total emissions of perfluorocarbons (PFCs),provided as aggregate CF4-equivalents
+Emi|SF6;kt SF6/yr;;;total emissions of sulfur hexafluoride (SF6)
+Emi|SO2;Mt SO2/yr;;;total sulfur (SO2) emissions
+Emi|SO2|Land Use;Mt SO2/yr;;;sulfur emissions from agriculture,forestry and other land use (IPCC category 3)
+Emi|SO2|Energy Supply and Demand;Mt SO2/yr;;;sulfur emissions from energy use on supply and demand side,including fugitive emissions from fuels (IPCC category 1A,1B)
+Emi|SO2|Energy Demand|ResCom;Mt SO2/yr;;;sulfur emissions from fuel combustion in residential,commercial,institutional sectors (IPCC category 1A4a,1A4b)
+Emi|SO2|Energy Demand|Industry;Mt SO2/yr;;;sulfur emissions from fuel combustion in industry (IPCC category 1A2)
+Emi|SO2|Energy Demand|Transport;Mt SO2/yr;;;sulfur emissions from fuel combustion in transportation sector (IPCC category 1A3),excluding pipeline emissions (IPCC category 1A3ei)
+Emi|SO2|Energy Supply;Mt SO2/yr;;;sulfur emissions from fuel combustion and fugitive emissions from fuels: electricity and heat production and distribution (IPCC category 1A1a),other energy conversion (e.g. refineries,synfuel production,solid fuel processing,IPCC category 1Ab,1Ac),incl. pipeline transportation (IPCC category 1A3ei),fugitive emissions from fuels (IPCC category 1B) and emissions from carbon dioxide transport and storage (IPCC category 1C)
+Emi|SO2|Waste;Mt SO2/yr;;;
+Emi|VOC;Mt VOC/yr;;;total volatile organic compound (VOC) emissions
+Emi|VOC|Land Use;Mt VOC/yr;;;land use based volatile organic compounds Emissions
+Emi|VOC|Energy Supply and Demand;Mt VOC/yr;;;volatile organic compounds emissions from energy use on supply and demand side,including fugitive emissions from fuels (IPCC category 1A,1B)
+Emi|VOC|Energy Demand|ResCom;Mt VOC/yr;;;volatile organic compounds Emissions from Combustion in Residential and Commercial/Institutional Sectors (IPCC 1A4A,1A4B)
+Emi|VOC|Energy Demand|Industry;Mt VOC/yr;;;volatile organic compounds Emissions from Combustion in industry (IPCC 1A2) and industrial processes (IPCC 2C1-2C5)
+Emi|VOC|Energy Demand|Transport;Mt VOC/yr;;;volatile organic compounds Emissions from Combustion in Transportation Sector (IPCC category 1A3)
+Emi|VOC|Energy Supply;Mt VOC/yr;;;volatile organic compounds Emissions from Extraction and Distribution of Fossil Fuels (including fugitive Emissions,IPCC category 1B)
+Emi|VOC|Waste;Mt VOC/yr;;;
+New Cap|Electricity|Biomass;GW;;;Capacity additions of all biomass power plants (yearly average additions between previos and current model time step)
+New Cap|Electricity|Biomass|w/ CCS;GW;;;Capacity additions of biomass power plants with CCS (yearly average additions between previos and current model time step)
+New Cap|Electricity|Biomass|w/o CCS;GW;;;Capacity additions of biomass power plants without CCS (yearly average additions between previos and current model time step)
+New Cap|Electricity|Coal;GW;;;Capacity additions of all coal power plants (yearly average additions between previos and current model time step)
+New Cap|Electricity|Coal|w/ CCS;GW;;;Capacity additions of coal power plants with CCS (yearly average additions between previos and current model time step)
+New Cap|Electricity|Coal|w/o CCS;GW;;;Capacity additions of coal power plants without CCS (yearly average additions between previos and current model time step)
+New Cap|Electricity|Gas;GW;;;Capacity additions of all gas power plants (yearly average additions between previos and current model time step)
+New Cap|Electricity|Gas|w/ CCS;GW;;;Capacity additions of gas power plants with CCS (yearly average additions between previos and current model time step)
+New Cap|Electricity|Gas|w/o CCS;GW;;;Capacity additions of gas power plants without CCS (yearly average additions between previos and current model time step)
+New Cap|Electricity|Hydro;GW;;;Capacity additions of hydropower plants (yearly average additions between previos and current model time step)
+New Cap|Electricity|Nuclear;GW;;;Capacity additions of nuclear power plants (yearly average additions between previos and current model time step)
+New Cap|Electricity|Solar;GW;;;Capacity additions of solar power plants (yearly average additions between previos and current model time step)
+New Cap|Electricity|Solar|CSP;GW;;;Capacity additions of concentrated solar power plants (yearly average additions between previos and current model time step)
+New Cap|Electricity|Solar|PV;GW;;;Capacity additions of solar PV (yearly average additions between previos and current model time step)
+New Cap|Electricity|Storage|Battery;GW;;;Capacity additions of electricity storage capacity (yearly average additions between previos and current model time step)
+New Cap|Electricity|Wind;GW;;;Capacity additions of wind power plants (onshore and offshore) (yearly average additions between previos and current model time step)
+Cap|Electricity;GW;;;total installed electricity generation capacity
+Cap|Electricity|Biomass;GW;;;total installed electricity generation capacity of biomass power plants
+Cap|Electricity|Biomass|w/ CCS;GW;;;Total installed (available) capacity of biomass power plants with CCS,including plants held in an operating reserve. The installed (available) capacity of CCS biomass power plants by plant type for which capital costs are reported should be reported by adding variables Capacity|Electricity|Biomass|w/ CCS|1,...,Capacity|Electricity|Biomass|w/ CCS|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Cap|Electricity|Biomass|w/o CCS;GW;;;Total installed (available) capacity of biomass power plants without CCS,including plants held in an operating reserve. The installed (available) capacity of biomass power plants by plant type for which capital costs are reported should be reported by adding variables Capacity|Electricity|Biomass|w/o CCS|1,...,Capacity|Electricity|Biomass|w/o CCS|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Cap|Electricity|Coal;GW;;;total installed electricity generation capacity of coal power plants
+Cap|Electricity|Coal|w/ CCS;GW;;;Total installed (available) capacity of coal power plants with CCS,including plants held in an operating reserve. The installed (available) capacity of CCS coal power plants by plant type for which capital costs are reported should be reported by adding variables Capacity|Electricity|Coal|w/ CCS|1,...,Capacity|Electricity|Coal|w/ CCS|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Cap|Electricity|Coal|w/o CCS;GW;;;Total installed (available) capacity of coal power plants without CCS,including plants held in an operating reserve. The installed (available) capacity of coal power plants by plant type for which capital costs are reported should be reported by adding variables Capacity|Electricity|Coal|w/o CCS|1,...,Capacity|Electricity|Coal|w/o CCS|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Cap|Electricity|Gas;GW;;;total installed electricity generation capacity of gas power plants
+Cap|Electricity|Gas|w/ CCS;GW;;;Total installed (available) capacity of gas power plants with CCS,including plants held in an operating reserve. The installed (available) capacity of CCS gas power plants by plant type for which capital costs are reported should be reported by adding variables Capacity|Electricity|Gas|w/ CCS|1,...,Capacity|Electricity|Gas|w/ CCS|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Cap|Electricity|Gas|w/o CCS;GW;;;Total installed (available) capacity of gas power plants without CCS,including plants held in an operating reserve. The installed (available) capacity of gas power plants by plant type for which capital costs are reported should be reported by adding variables Capacity|Electricity|Gas|w/o CCS|1,...,Capacity|Electricity|Gas|w/o CCS|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Cap|Electricity|Geothermal;GW;;;total installed electricity generation capacity of geothermal power plants
+Cap|Electricity|Hydro;GW;;;total installed electricity generation capacity of hydro power plants
+Cap|Electricity|Nuclear;GW;;;total installed electricity generation capacity of nuclear power plants
+Cap|Electricity|Oil|w/o CCS;GW;;;Total installed (available) capacity of oil power plants without CCS,including plants held in an operating reserve. The installed (available) capacity of oil power plants by plant type for which capital costs are reported should be reported by adding variables Capacity|Electricity|Oil|w/o CCS|1,...,Capacity|Electricity|Oil|w/o CCS|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Cap|Electricity|Peak Demand|Estimated from FE x 1p4 x 1p1;GW;;;peak (maximum) electricity load
+Cap|Electricity|Solar;GW;;;total installed electricity generation capacity of solar power installations
+Cap|Electricity|Solar|CSP;GW;;;total installed electricity generation capacity of CSP plants
+Cap|Electricity|Solar|PV;GW;;;total installed electricity generation capacity of PV installations
+Cap|Electricity|Storage|Battery;GW;;;Total installed (available) capacity of operating electricity storage
+Cap|Electricity|Wind;GW;;;total installed electricity generation capacity of wind power installations
+Cumulative Cap|Electricity|Biomass;GW;;;cumulative installed capacity (since 2005) of biomass power plants
+Cumulative Cap|Electricity|Biomass|w/ CCS;GW;;;cumulative installed capacity (since 2005) of biomass power plants with CCS.
+Cumulative Cap|Electricity|Biomass|w/o CCS;GW;;;cumulative installed capacity (since 2005) of biomass power plants without CCS.
+Cumulative Cap|Electricity|Coal;GW;;;cumulative installed capacity (since 2005) of coal power plants
+Cumulative Cap|Electricity|Coal|w/ CCS;GW;;;cumulative installed capacity (since 2005) of coal power plants with CCS.
+Cumulative Cap|Electricity|Coal|w/o CCS;GW;;;cumulative installed capacity (since 2005) of coal power plants without CCS.
+Cumulative Cap|Electricity|Gas;GW;;;cumulative installed capacity (since 2005) of gas power plants
+Cumulative Cap|Electricity|Gas|w/ CCS;GW;;;cumulative installed capacity (since 2005) of gas power plants without CCS.
+Cumulative Cap|Electricity|Gas|w/o CCS;GW;;;cumulative installed capacity (since 2005) of gas power plants with CCS.
+Cumulative Cap|Electricity|Hydro;GW;;;cumulative installed capacity (since 2005) of hydro power plants
+Cumulative Cap|Electricity|Nuclear;GW;;;cumulative installed capacity (since 2005) of nuclear power plants
+Cumulative Cap|Electricity|Solar;GW;;;cumulative installed capacity (since 2005) of solar power installations
+Cumulative Cap|Electricity|Solar|CSP;GW;;;cumulative installed capacity (since 2005) of CSP plants
+Cumulative Cap|Electricity|Solar|PV;GW;;;cumulative installed capacity (since 2005) of PV installations
+Cumulative Cap|Electricity|Wind;GW;;;cumulative installed capacity (since 2005) of wind power installations
+Cumulative Cap|Hydrogen|Biomass;GW;;;Cumulative installed capacity (since 2005) of biomass to hydrogen plants.
+Cumulative Cap|Hydrogen|Biomass|w/ CCS;GW;;;Cumulative installed capacity (since 2005) of biomass to hydrogen plants with CCS. The cumulative capacity of CCS biomass to hydrogen plants by plant type for which capital costs are reported should be reported by adding variables Cumulative Capacity|Hydrogen|Biomass|w/ CCS|1,...,Cumulative Capacity|Hydrogen|Biomass|w/ CCS|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Cumulative Cap|Hydrogen|Biomass|w/o CCS;GW;;;Cumulative installed capacity (since 2005) of biomass to hydrogen plants without CCS. The cumulative capacity of biomass to hydrogen plants by plant type for which capital costs are reported should be reported by adding variables Cumulative Capacity|Hydrogen|Biomass|w/o CCS|1,...,Cumulative Capacity|Hydrogen|Biomass|w/o CCS|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Cumulative Cap|Hydrogen|Electricity;GW;;;Cumulative installed capacity (since 2005) of hydrogen-by-electrolysis plants. The cumulative capacity of hydrogen-by-electrolysis plants by plant type for which capital costs are reported should be reported by adding variables Cumulative Capacity|Hydrogen|Electricity|1,...,Cumulative Capacity|Hydrogen|Electricity|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Energy Service|Buildings|Commercial|Floor Space;bn m2/yr;;;energy service demand for conditioned floor space in commercial buildings
+Energy Service|Buildings|Floor Space;bn m2/yr;;;annual demand for floor space (and associated energy servide demand for heating and lighting) in residential and commerical buildings
+Energy Service|Buildings|Residential|Floor Space;bn m2/yr;;;energy service demand for conditioned floor space in residential buildings
+ES|Transport|VKM|Pass|Aviation|Domestic;bn vkm/yr;;;Annual demand for energy services in billion vehicle-kms related to both passenger and freight transportation by Aviation
+ES|Transport|VKM|Pass|Aviation|International;bn vkm/yr;;;Annual demand for energy services in billion vehicle-kms related to both passenger and freight transportation by Aviation
+ES|Transport|Freight;bn tkm/yr;;;annual demand for energy services related to freight transportation
+ES|Transport|Freight|International Shipping;bn tkm/yr;;;annual demand for energy services related to freight transportation in international shipping
+ES|Transport|Freight|Navigation;bn tkm/yr;;;annual demand for energy services related to freight transportation in navigation
+ES|Transport|Freight|Rail;bn tkm/yr;;;annual demand for energy services related to freight transportation in railways
+ES|Transport|Freight|Road;bn tkm/yr;;;annual demand for energy services related to freight transportation on roads
+ES|Transport|VKM|Freight|Navigation;bn vkm/yr;;;Annual demand for energy services in billion vehicle-kms related to both passenger and freight transportation by Navigation
+ES|Transport|Pass;bn pkm/yr;;;annual demand for energy services related to passenger transportation
+ES|Transport|Pass|Aviation|Domestic;bn pkm/yr;;;annual demand for energy services related to passenger transportation in aviation
+ES|Transport|Pass|Aviation|International;bn pkm/yr;;;annual demand for energy services related to passenger transportation in aviation
+ES|Transport|Pass|Road|Non-Motorized;bn pkm/yr;;;energy service demand for passenger transport on bicycles and by foot
+ES|Transport|Pass|Rail;bn pkm/yr;;;annual demand for energy services related to passenger transportation in railways
+ES|Transport|Pass|Road;bn pkm/yr;;;annual demand for energy services related to passenger transportation on roads
+ES|Transport|Pass|Road|LDV|Two-Wheelers;bn pkm/yr;;;energy service demand for passenger transport on roads (two- and three-wheel vehicles)
+ES|Transport|Pass|Road|Bus;bn pkm/yr;;;energy service demand for passenger transport on roads (buses)
+ES|Transport|Pass|Road|LDV;bn pkm/yr;;;energy service demand for passenger transport on roads (light-duty vehicles: passenger cars and light trucks/SUVs/vans)
+ES|Transport|VKM|Rail;bn vkm/yr;;;Annual demand for energy services in billion vehicle-kms related to both passenger and freight transportation by Rail
+ES|Transport|VKM|Road;bn vkm/yr;;;Annual demand for energy services in billion vehicle-kms related to both passenger and freight transportation by Road
+FE;EJ/yr;;;total final energy consumption by all end-use sectors and all fuels,excluding transmission/distribution losses
+FE|Buildings;EJ/yr;;;final energy consumed in the residential & commercial sector
+FE|Buildings|Electricity;EJ/yr;;;final energy consumption by the residential & commercial sector of electricity (including on-site solar PV),excluding transmission/distribution losses
+FE|Buildings|Gases;EJ/yr;;;final energy consumption by the residential & commercial sector of gases (natural gas,biogas,coal-gas),excluding transmission/distribution losses
+FE|Buildings|Heat;EJ/yr;;;final energy consumption by the residential & commercial sector of heat (e.g.,district heat,process heat,solar heating and warm water),excluding transmission/distribution losses
+FE|Buildings|Hydrogen;EJ/yr;;;final energy consumption by the residential & commercial sector of hydrogen
+FE|Buildings|Liquids;EJ/yr;;;final energy consumption by the residential & commercial sector of refined liquids (conventional & unconventional oil,biofuels,coal-to-liquids,gas-to-liquids)
+FE|Buildings|Appliances and Light;EJ/yr;;;Final energy consumption by the residential and commercial sector for appliances
+FE|Buildings|Space Cooling;EJ/yr;;;Final energy consumption by the residential and commercial sector for heating|space
+FE|Buildings|Space Heating;EJ/yr;;;Final energy consumption by the residential and commercial sector for heating|space
+FE|Buildings|Cooking and Water;EJ/yr;;;Final energy consumption by the residential and commercial sector for heating|water
+FE|Buildings|Solids;EJ/yr;;;final energy solid fuel consumption by the residential & commercial sector (including coal and solid biomass)
+FE|Buildings|Solids|Biomass;EJ/yr;;;final energy consumption by the residential & commercial sector of solid biomass (modern and traditional)
+FE|Buildings|Solids|Biomass|Traditional;EJ/yr;;;final energy consumed in the residential & commercial sector coming from biomass (traditional)
+FE|Buildings|Solids|Coal;EJ/yr;;;final energy coal consumption by the residential & commercial sector
+FE|+|Electricity;EJ/yr;;;final energy consumption of electricity (including on-site solar PV),excluding transmission/distribution losses
+FE|+|Gases;EJ/yr;;;final energy consumption of gases (natural gas,biogas,coal-gas),excluding transmission/distribution losses
+SE|Heat|Geothermal;EJ/yr;;;final energy consumption of geothermal energy (e.g.,from decentralized or small-scale geothermal heating systems) EXCLUDING geothermal heat pumps
+FE|+|Heat;EJ/yr;;;final energy consumption of heat (e.g.,district heat,process heat,warm water),excluding transmission/distribution losses,excluding direct geothermal and solar heating
+FE|+|Hydrogen;EJ/yr;;;final energy consumption of hydrogen,excluding transmission/distribution losses
+FE|Industry;EJ/yr;;;final energy consumed by the industrial sector,including feedstocks,including agriculture and fishing
+FE|Industry|Electricity|Cement;EJ/yr;;;final energy consumption by the industrial cement sector of electricity,excluding transmission/distribution losses
+FE|Industry|Gases|Cement;EJ/yr;;;final energy consumption by the industrial cement sector of gases,excluding transmission/distribution losses
+FE|Industry|Heat|Cement;EJ/yr;;;final energy consumption by the industrial cement sector of heat,excluding transmission/distribution losses
+FE|Industry|Hydrogen|Cement;EJ/yr;;;final energy consumption by the industrial cement sector of hydrogen,excluding transmission/distribution losses
+FE|Industry|Liquids|Cement;EJ/yr;;;final energy consumption by the industrial cement sector of liquids,excluding transmission/distribution losses
+FE|Industry|Solids|Cement;EJ/yr;;;final energy consumption by the industrial cement sector of solids,excluding transmission/distribution losses
+FE|Industry|Electricity|Chemicals;EJ/yr;;;final energy consumption by the industrial chemicals sector of electricity,excluding transmission/distribution losses
+FE|Industry|Gases|Chemicals;EJ/yr;;;final energy consumption by the industrial chemicals sector of gases,excluding transmission/distribution losses
+FE|Industry|Heat|Chemicals;EJ/yr;;;final energy consumption by the industrial chemicals sector of heat,excluding transmission/distribution losses
+FE|Industry|Hydrogen|Chemicals;EJ/yr;;;final energy consumption by the industrial chemicals sector of hydrogen,excluding transmission/distribution losses
+FE|Industry|Liquids|Chemicals;EJ/yr;;;final energy consumption by the industrial chemicals sector of liquids,excluding transmission/distribution losses
+FE|Industry|Solids|Chemicals;EJ/yr;;;final energy consumption by the industrial chemicals sector of solids,excluding transmission/distribution losses
+FE|Industry|Electricity;EJ/yr;;;final energy consumption by the industrial sector of electricity (including on-site solar PV),excluding transmission/distribution losses
+FE|Industry|Gases;EJ/yr;;;final energy consumption by the industrial sector of gases (natural gas,biogas,coal-gas),excluding transmission/distribution losses
+FE|Industry|Gases|Biomass;EJ/yr;;;Final energy consumption by the industrial sector of bioenergy gases (biogas),excluding transmission/distribution losses
+FE|Industry|Heat;EJ/yr;;;final energy consumption by the industrial sector of heat (e.g.,district heat,process heat,solar heating and warm water),excluding transmission/distribution losses
+FE|Industry|Hydrogen;EJ/yr;;;final energy consumption by the industrial sector of hydrogen
+FE|Industry|Liquids;EJ/yr;;;final energy consumption by the industrial sector of refined liquids (conventional & unconventional oil,biofuels,coal-to-liquids,gas-to-liquids)
+FE|Industry|Electricity|other;EJ/yr;;;final energy consumption by the industrial other sector of electricity, excluding transmission/distribution losses
+FE|Industry|Gases|other;EJ/yr;;;final energy consumption by the industrial other sector of gases, excluding transmission/distribution losses
+FE|Industry|Heat|other;EJ/yr;;;final energy consumption by the industrial other sector of heat, excluding transmission/distribution losses
+FE|Industry|Hydrogen|other;EJ/yr;;;final energy consumption by the industrial other sector of hydrogen, excluding transmission/distribution losses
+FE|Industry|Liquids|other;EJ/yr;;;final energy consumption by the industrial other sector of liquids, excluding transmission/distribution losses
+FE|Industry|Solids|other;EJ/yr;;;final energy consumption by the industrial other sector of solids, excluding transmission/distribution losses
+FE|Industry|Solids;EJ/yr;;;final energy solid fuel consumption by the industrial sector (including coal and solid biomass)
+FE|Industry|Solids|Biomass;EJ/yr;;;final energy consumption by the industry sector of solid biomass
+FE|Industry|Solids|Coal;EJ/yr;;;final energy consumption by the industry sector of coal
+FE|Industry|Electricity|Steel;EJ/yr;;;final energy consumption by the industrial steel sector of electricity,excluding transmission/distribution losses
+FE|Industry|Gases|Steel;EJ/yr;;;final energy consumption by the industrial steel sector of gases,excluding transmission/distribution losses
+FE|Industry|Heat|Steel;EJ/yr;;;final energy consumption by the industrial steel sector of heat,excluding transmission/distribution losses
+FE|Industry|Hydrogen|Steel;EJ/yr;;;final energy consumption by the industrial steel sector of hydrogen,excluding transmission/distribution losses
+FE|Industry|Liquids|Steel;EJ/yr;;;final energy consumption by the industrial steel sector of liquids,excluding transmission/distribution losses
+FE|Industry|Solids|Steel;EJ/yr;;;final energy consumption by the industrial steel sector of solids,excluding transmission/distribution losses
+FE|+|Liquids;EJ/yr;;;final energy consumption of refined liquids (conventional & unconventional oil,biofuels,coal-to-liquids,gas-to-liquids)
+FE|CDR;EJ/yr;;;total final energy consumption by other sectors
+FE|CDR|Electricity;EJ/yr;;;final energy consumption by other sectors of electricity (including on-site solar PV),excluding transmission/distribution losses
+FE|CDR|Gases;EJ/yr;;;final energy consumption by other sectors of gases (natural gas,biogas,coal-gas),excluding transmission/distribution losses
+FE|CDR|Hydrogen;EJ/yr;;;final energy consumption by other sectors of hydrogen
+FE|CDR|Liquids;EJ/yr;;;final energy consumption by other sectors of refined liquids (conventional & unconventional oil,biofuels,coal-to-liquids,gas-to-liquids)
+FE|+|Solids;EJ/yr;;;final energy solid fuel consumption (including coal and solid biomass)
+FE|Solids|Biomass;EJ/yr;;;final energy consumption of solid biomass (modern and traditional),excluding final energy consumption of bioliquids which are reported in the liquids category
+FE|Solids|Biomass|Traditional;EJ/yr;;;final energy consumption of traditional biomass
+FE|Solids|Coal;EJ/yr;;;final energy coal consumption
+FE|Transport;EJ/yr;;;final energy consumed in the transportation sector,including bunker fuels,excluding pipelines
+FE|Transport|Pass|Aviation|Domestic;EJ/yr;;;Final energy consumed in the transport sector by passenger aviation mode
+FE|Transport|Pass|Aviation|International;EJ/yr;;;Final energy consumed in the transport sector by passenger aviation mode
+FE|Transport|Electricity;EJ/yr;;;final energy consumption by the transportation sector of electricity (including on-site solar PV),excluding transmission/distribution losses
+FE|Transport|Freight;EJ/yr;;;final energy consumed for freight transportation
+FE|Transport|Freight|Electricity;EJ/yr;;;final energy consumption by the freight transportation sector of electricity (including on-site solar PV),excluding transmission/distribution losses
+FE|Transport|Freight|Gases;EJ/yr;;;final energy consumption by the freight transportation sector of gases (natural gas,biogas,coal-gas),excluding transmission/distribution losses
+FE|Transport|Freight|Hydrogen;EJ/yr;;;final energy consumption by the freight transportation sector of hydrogen
+FE|Transport|Freight|Liquids;EJ/yr;;;final energy consumption by the freight transportation sector of refined liquids (conventional & unconventional oil,biofuels,coal-to-liquids,gas-to-liquids)
+FE|Transport|Freight|Liquids|Biomass;EJ/yr;;;Final biofuels based (liquid or gas) energy consumed in the transport sector by freight vehicles
+FE|Transport|Freight|Liquids|Oil;EJ/yr;;;final energy consumption by the freight transportation sector of liquid oil products (from conventional & unconventional oil)
+FE|Transport|Freight|Liquids|Hydrogen;EJ/yr;;;final energy consumption by the freight transportation sector of other sources that do not fit to any other category (please provide a definition of the sources in this category in the 'comments' tab)
+FE|Transport|Gases;EJ/yr;;;final energy consumption by the transportation sector of gases (natural gas,biogas,coal-gas),excluding transmission/distribution losses
+FE|Transport|Gases|Biomass;EJ/yr;;;Final bioenergy-based gas energy consumed in the transportation sector.
+FE|Transport|Gases|Non-Biomass;EJ/yr;;;Final fossil-based gas energy consumed in the transportation sector.
+FE|Transport|Hydrogen;EJ/yr;;;final energy consumption by the transportation sector of hydrogen
+FE|Transport|Liquids;EJ/yr;;;final energy consumption by the transportation sector of refined liquids (conventional & unconventional oil,biofuels,coal-to-liquids,gas-to-liquids)
+FE|Transport|Liquids|Biomass;EJ/yr;;;Final biofuels based (liquid or gas) energy consumed in the transport sector by passenger and freight vehicles
+FE|Transport|Liquids|Coal;EJ/yr;;;final energy consumption by the transportation sector of coal based liquids (coal-to-liquids)
+FE|Transport|Liquids|Oil;EJ/yr;;;final energy consumption by the transportation sector of liquid oil products (from conventional & unconventional oil)
+FE|Transport|Freight|Navigation;EJ/yr;;;Final energy consumed in the transport sector by maritime mode
+FE|Transport|Freight|International Shipping;EJ/yr;;;Final energy consumed in the transport sector by maritime mode
+FE|Transport|Liquids|Hydrogen;EJ/yr;;;final energy consumption by the transportation sector of other sources that do not fit to any other category (please provide a definition of the sources in this category in the 'comments' tab)
+FE|Transport|Pass;EJ/yr;;;final energy consumed for passenger transportation
+FE|Transport|Pass|Electricity;EJ/yr;;;final energy consumption by the passenger transportation sector of electricity (including on-site solar PV),excluding transmission/distribution losses
+FE|Transport|Pass|Gases;EJ/yr;;;final energy consumption by the passenger transportation sector of gases (natural gas,biogas,coal-gas),excluding transmission/distribution losses
+FE|Transport|Pass|Hydrogen;EJ/yr;;;final energy consumption by the passenger transportation sector of hydrogen
+FE|Transport|Pass|Liquids;EJ/yr;;;final energy consumption by the passenger transportation sector of refined liquids (conventional & unconventional oil,biofuels,coal-to-liquids,gas-to-liquids)
+FE|Transport|Pass|Liquids|Biomass;EJ/yr;;;Final biofuels based (liquid or gas) energy consumed in the transport sector by passenger vehicles
+FE|Transport|Pass|Liquids|Oil;EJ/yr;;;final energy consumption by the passenger transportation sector of liquid oil products (from conventional & unconventional oil)
+FE|Transport|Pass|Liquids|Hydrogen;EJ/yr;;;final energy consumption by the passenger transportation sector of other sources that do not fit to any other category (please provide a definition of the sources in this category in the 'comments' tab)
+FE|Transport|Rail;EJ/yr;;;Final energy consumed in the transport sector by rail mode
+FE|Transport|Freight|Rail;EJ/yr;;;Final energy consumed in the transport sector by freight rail mode
+FE|Transport|Pass|Rail;EJ/yr;;;Final energy consumed in the transport sector by passenger rail mode
+FE|Transport|Freight|Road;EJ/yr;;;Final energy consumed in the transport sector by road transport freight vehicles
+FE|Transport|Freight|Road|Electricity;EJ/yr;;;Final energy consumed in the transport sector by road transport freight  electric vehicles (e.g. PHEV,BEV)
+FE|Transport|Freight|Road|Hydrogen;EJ/yr;;;Final energy consumed in the transport sector by road transport freight  fuel cell vehicles
+FE|Transport|Freight|Road|Liquids;EJ/yr;;;Final energy consumed in the transport sector by road transport freight vehicles,driven by an internal combustion engine (including HEVs)
+FE|Transport|Pass|Road;EJ/yr;;;Final energy consumed in the transport sector by road transport passenger vehicles
+FE|Transport|Pass|Road|LDV|Two-Wheelers;EJ/yr;;;Final energy consumed in the transport sector by road passenger transport by 2W and 3W vehicles
+FE|Transport|Pass|Road|Bus;EJ/yr;;;
+FE|Transport|Pass|Road|LDV;EJ/yr;;;
+Price|Final Energy|Electricity|Transport|Moving Avg;US$2005/GJ;1.10774;;Electricity price at the final level in the transportation sector. Prices should include taxes and the effect of carbon prices.
+Price|Final Energy|Gases|Transport;US$2005/GJ;1.10774;;Gases price at the final level in the transportation sector. Prices should include taxes and the effect of carbon prices.
+Price|Final Energy|Hydrogen|Transport;US$2005/GJ;1.10774;;Hydrogen price at the final level in the transportation sector. Prices should include taxes and the effect of carbon prices.
+Price|Final Energy|Liquids|Transport;US$2005/GJ;1.10774;;Liquids price at the final level in the transportation sector. Prices should include taxes and the effect of carbon prices.
+PE;EJ/yr;;;total primary energy consumption (direct equivalent)
+PE|+|Biomass;EJ/yr;;;primary energy consumption of purpose-grown bioenergy crops,crop and forestry residue bioenergy,municipal solid waste bioenergy,traditional biomass
+PE|Biomass|1st Generation;EJ/yr;;;biomass primary energy from 1st generation biofuel crops (e.g.,sugar cane,rapeseed oil,maize,sugar beet)
+PE|Biomass|Electricity;EJ/yr;;;primary energy input to electricity generation of purpose-grown bioenergy crops,crop and forestry residue bioenergy,municipal solid waste bioenergy,traditional biomass
+PE|Biomass|Electricity|w/ CCS;EJ/yr;;;purpose-grown bioenergy crops,crop and forestry residue bioenergy,municipal solid waste bioenergy,traditional biomass primary energy input to electricity generation used in combination with CCS
+PE|Biomass|Electricity|w/o CCS;EJ/yr;;;purpose-grown bioenergy crops,crop and forestry residue bioenergy,municipal solid waste bioenergy,traditional biomass primary energy input to electricity generation without CCS
+PE|Biomass|Energy Crops;EJ/yr;;;biomass primary energy from purpose-grown bioenergy crops
+PE|Biomass|Gases;EJ/yr;;;primary energy input to the fuel conversion sector
+PE|Biomass|Hydrogen;EJ/yr;;;primary energy input to the fuel conversion sector
+PE|Biomass|Liquids;EJ/yr;;;primary energy input to the fuel conversion sector
+PE|Biomass|Modern;EJ/yr;;;modern biomass primary energy consumption,including purpose-grown bioenergy crops,crop and forestry residue bioenergy and municipal solid waste bioenergy
+PE|Biomass|w/ CCS;EJ/yr;;;purpose-grown bioenergy crops,crop and forestry residue bioenergy,municipal solid waste bioenergy,traditional biomass primary energy consumption used in combination with CCS
+PE|Biomass|w/o CCS;EJ/yr;;;purpose-grown bioenergy crops,crop and forestry residue bioenergy,municipal solid waste bioenergy,traditional biomass primary energy consumption without CCS
+PE|Biomass|Residues;EJ/yr;;;biomass primary energy from residues
+PE|Biomass|Solids;EJ/yr;;;primary energy input to the fuel conversion sector
+PE|Biomass|Traditional;EJ/yr;;;traditional biomass primary energy consumption
+PE|+|Coal;EJ/yr;;;coal primary energy consumption
+PE|Coal|Electricity;EJ/yr;;;coal primary energy input to electricity generation
+PE|Coal|Electricity|w/ CCS;EJ/yr;;;coal primary energy input to electricity generation used in combination with CCS
+PE|Coal|Electricity|w/o CCS;EJ/yr;;;coal primary energy input to electricity generation without CCS
+PE|Coal|Gases;EJ/yr;;;primary energy input to the fuel conversion sector
+PE|Coal|Hydrogen;EJ/yr;;;primary energy input to the fuel conversion sector
+PE|Coal|Liquids;EJ/yr;;;primary energy input to the fuel conversion sector
+PE|Coal|Solids;EJ/yr;;;primary energy input to the fuel conversion sector
+PE|Coal|w/ CCS;EJ/yr;;;coal primary energy consumption used in combination with CCS
+PE|Coal|w/o CCS;EJ/yr;;;coal primary energy consumption without CCS
+PE|Fossil;EJ/yr;;;coal,gas,conventional and unconventional oil primary energy consumption
+PE|Fossil|w/ CCS;EJ/yr;;;coal,gas,conventional and unconventional oil primary energy consumption used in combination with CCS
+PE|Fossil|w/o CCS;EJ/yr;;;coal,gas,conventional and unconventional oil primary energy consumption without CCS
+PE|+|Gas;EJ/yr;;;gas primary energy consumption
+PE|Gas|Electricity;EJ/yr;;;gas primary energy input to electricity generation
+PE|Gas|Electricity|w/ CCS;EJ/yr;;;gas primary energy input to electricity generation used in combination with CCS
+PE|Gas|Electricity|w/o CCS;EJ/yr;;;gas primary energy input to electricity generation without CCS
+PE|Gas|Gases;EJ/yr;;;primary energy input to the fuel conversion sector
+PE|Gas|Hydrogen;EJ/yr;;;primary energy input to the fuel conversion sector
+PE|Gas|Liquids;EJ/yr;;;primary energy input to the fuel conversion sector
+PE|Gas|w/ CCS;EJ/yr;;;gas primary energy consumption used in combination with CCS
+PE|Gas|w/o CCS;EJ/yr;;;gas primary energy consumption without CCS
+PE|+|Geothermal;EJ/yr;;;total geothermal primary energy consumption
+PE|+|Hydro;EJ/yr;;;total hydro primary energy consumption
+PE|Non-Biomass Renewables;EJ/yr;;;non-biomass renewable primary energy consumption (direct equivalent,includes hydro electricity,wind electricity,geothermal electricity and heat,solar electricity and heat and hydrogen,ocean energy)
+PE|+|Nuclear;EJ/yr;;;nuclear primary energy consumption (direct equivalent,includes electricity,heat and hydrogen production from nuclear energy)
+PE|+|Oil;EJ/yr;;;conventional & unconventional oil primary energy consumption
+PE|Oil|w/o CCS;EJ/yr;;;conventional & unconventional oil primary energy consumption without CCS
+PE|+|Solar;EJ/yr;;;total solar primary energy consumption
+PE|+|Wind;EJ/yr;;;total wind primary energy consumption
+SE;EJ/yr;;;total secondary energy - the sum of all secondary energy carrier production (for consistency checks)
+SE|Electricity;EJ/yr;;;total net electricity production
+SE|Electricity|Biomass;EJ/yr;;;net electricity production from municipal solid waste,purpose-grown biomass,crop residues,forest industry waste,biogas
+SE|Electricity|Biomass|w/ CCS;EJ/yr;;;net electricity production from municipal solid waste,purpose-grown biomass,crop residues,forest industry waste with a CO2 capture component
+SE|Electricity|Biomass|w/o CCS;EJ/yr;;;net electricity production from municipal solid waste,purpose-grown biomass,crop residues,forest industry waste with freely vented CO2 emissions
+SE|Electricity|Coal;EJ/yr;;;net electricity production from coal
+SE|Electricity|Coal|w/ CCS;EJ/yr;;;net electricity production from coal with a CO2 capture component
+SE|Electricity|Coal|w/o CCS;EJ/yr;;;net electricity production from coal with freely vented CO2 emissions
+SE|Electricity|Curtailment|WindSolar;EJ/yr;;;curtailment of electricity production due to oversupply from variable renewable sources (typically from wind and solar)
+SE|Electricity|Gas;EJ/yr;;;net electricity production from natural gas
+SE|Electricity|Gas|w/ CCS;EJ/yr;;;net electricity production from natural gas with a CO2 capture component
+SE|Electricity|Gas|w/o CCS;EJ/yr;;;net electricity production from natural gas with freely vented CO2 emissions
+SE|Electricity|Geothermal;EJ/yr;;;net electricity production from all sources of geothermal energy (e.g.,hydrothermal,enhanced geothermal systems)
+SE|Electricity|Hydro;EJ/yr;;;net hydroelectric production
+SE|Electricity|Non-Biomass Renewables;EJ/yr;;;net electricity production from hydro,wind,solar,geothermal,ocean,and other renewable sources (excluding bioenergy). This is a summary category for all the non-biomass renewables.
+SE|Electricity|Nuclear;EJ/yr;;;net electricity production from nuclear energy
+SE|Electricity|Oil;EJ/yr;;;net electricity production from refined liquid oil products
+SE|Electricity|Oil|w/o CCS;EJ/yr;;;net electricity production from refined liquids with freely vented CO2 emissions
+SE|Electricity|Solar;EJ/yr;;;net electricity production from all sources of solar energy (e.g.,PV and concentrating solar power)
+SE|Electricity|Solar|CSP;EJ/yr;;;net electricity production from concentrating solar power (CSP)
+SE|Electricity|Solar|PV;EJ/yr;;;net electricity production from solar photovoltaics (PV)
+SE|Electricity|Wind;EJ/yr;;;net electricity production from wind energy (on- and offshore)
+SE|Gases;EJ/yr;;;total production of gaseous fuels,including natural gas
+SE|Gases|Biomass;EJ/yr;;;total production of biogas
+SE|Gases|Coal;EJ/yr;;;total production of coal gas from coal gasification
+SE|Gases|Natural Gas;EJ/yr;;;total production of natural gas
+SE|Heat;EJ/yr;;;total centralized heat generation
+SE|Heat|Biomass;EJ/yr;;;centralized heat generation from biomass
+SE|Heat|Coal;EJ/yr;;;centralized heat generation from coal
+SE|Heat|Gas;EJ/yr;;;centralized heat generation from gases
+SE|Heat|Geothermal;EJ/yr;;;centralized heat generation from geothermal energy EXCLUDING geothermal heat pumps
+SE|Hydrogen;EJ/yr;;;total hydrogen production
+SE|Hydrogen|Biomass;EJ/yr;;;hydrogen production from biomass
+SE|Hydrogen|Biomass|w/ CCS;EJ/yr;;;hydrogen production from biomass with a CO2 capture component
+SE|Hydrogen|Biomass|w/o CCS;EJ/yr;;;hydrogen production from biomass with freely vented CO2 emissions
+SE|Hydrogen|Coal;EJ/yr;;;hydrogen production from coal
+SE|Hydrogen|Coal|w/ CCS;EJ/yr;;;hydrogen production from coal with a CO2 capture component
+SE|Hydrogen|Coal|w/o CCS;EJ/yr;;;hydrogen production from coal with freely vented CO2 emissions
+SE|Hydrogen|Electricity;EJ/yr;;;hydrogen production from electricity via electrolysis
+SE|Hydrogen|Fossil;EJ/yr;;;hydrogen production from fossil fuels
+SE|Hydrogen|Fossil|w/ CCS;EJ/yr;;;hydrogen production from fossil fuels with a CO2 capture component
+SE|Hydrogen|Fossil|w/o CCS;EJ/yr;;;hydrogen production from fossil fuels with freely vented CO2 emissions
+SE|Hydrogen|Gas;EJ/yr;;;hydrogen production from gas
+SE|Hydrogen|Gas|w/ CCS;EJ/yr;;;hydrogen production from natural gas with a CO2 capture component
+SE|Hydrogen|Gas|w/o CCS;EJ/yr;;;hydrogen production from natural gas with freely vented CO2 emissions
+SE|Liquids;EJ/yr;;;total production of refined liquid fuels from all energy sources (incl. oil products,synthetic fossil fuels from gas and coal,biofuels)
+SE|Liquids|Biomass;EJ/yr;;;total liquid biofuels production
+SE|Liquids|Biomass|1st Generation;EJ/yr;;;liquid biofuels production from 1st generation technologies,relying on e.g. corn,sugar,oil
+SE|Liquids|Biomass|Energy Crops;EJ/yr;;;liquid biofuels production from energy crops
+SE|Liquids|Biomass|Residues;EJ/yr;;;liquid biofuels production from residues (forest and agriculture)
+SE|Liquids|Biomass|w/ CCS;EJ/yr;;;total liquid biofuels production with CCS
+SE|Liquids|Biomass|w/o CCS;EJ/yr;;;total liquid biofuels production without CCS
+SE|Liquids|Coal;EJ/yr;;;total production of fossil liquid synfuels from coal-to-liquids (CTL) technologies
+SE|Liquids|Coal|w/ CCS;EJ/yr;;;total production of fossil liquid synfuels from coal-to-liquids (CTL) technologies with CCS
+SE|Liquids|Coal|w/o CCS;EJ/yr;;;total production of fossil liquid synfuels from coal-to-liquids (CTL) technologies without CCS
+SE|Liquids|Fossil;EJ/yr;;;total production of fossil liquid synfuels
+SE|Liquids|Fossil|w/ CCS;EJ/yr;;;total production of fossil liquid synfuels from facilities with CCS
+SE|Liquids|Fossil|w/o CCS;EJ/yr;;;total production of fossil liquid synfuels from facilities without CCS
+SE|Liquids|Gas;EJ/yr;;;total production of fossil liquid synfuels from gas-to-liquids (GTL) technologies
+SE|Liquids|Gas|w/ CCS;EJ/yr;;;total production of fossil liquid synfuels from gas-to-liquids (GTL) technologies with CCS
+SE|Liquids|Gas|w/o CCS;EJ/yr;;;total production of fossil liquid synfuels from gas-to-liquids (GTL) technologies without CCS
+SE|Liquids|Oil;EJ/yr;;;total production of liquid fuels from petroleum,including both conventional and unconventional sources
+SE|Solids;EJ/yr;;;solid secondary energy carriers (e.g.,briquettes,coke,wood chips,wood pellets)
+SE|Solids|Biomass;EJ/yr;;;solid secondary energy carriers produced from biomass (e.g.,commercial charcoal,wood chips,wood pellets). Tradional bioenergy use is excluded.
+SE|Solids|Coal;EJ/yr;;;solid secondary energy carriers produced from coal (e.g.,briquettes,coke)
+Trade|Biomass;EJ/yr;;;net exports of solid,unprocessed biomass,at the global level these should add up to the trade losses only
+Trade|Coal;EJ/yr;;;net exports of coal,at the global level these should add up to the trade losses only
+Trade|Gas;EJ/yr;;;net exports of natural gas,at the global level these should add up to the trade losses only
+Trade|Oil;EJ/yr;;;net exports of crude oil,at the global level these should add up to the trade losses only
+Trade|Uranium|Mass;ktU/yr;;;net exports of Uranium,at the global level these should add up to the trade losses only
+Household Expenditure|Food|Expenditure;USD/capita;;;expenditure of households for food.
+Carbon Intensity|Production|Cement;Mt CO2/Mt;;;CO2eq carbon intensity of Cement production for both process and fuel combustion emissions
+Carbon Intensity|Production|Cement|Fossil|Energy|Demand;Mt CO2/Mt;;;CO2-equiv carbon intensity of Cement production from fuel combustion emissions (excl. industrial process emissions)
+Carbon Intensity|Production|Cement|Industrial Processes;Mt CO2/Mt;;;CO2-equiv carbon intensity of Cement production from industrial process emissions (excl. fuel combustion)
+Carbon Intensity|Production|Steel;Mt CO2/Mt;;;CO2eq carbon intensity of Steel production for both process and fuel combustion emissions
+Carbon Intensity|Production|Steel|Fossil|Energy|Demand;Mt CO2/Mt;;;CO2-equiv carbon intensity of Steel production from fuel combustion emissions (excl. industrial process emissions)
+Production|Industry|Cement;Mt/yr;;;production of cement
+Production|Industry|Steel;Mt/yr;;;production of steel
+Specific Energy Consumption|Industry|Cement;MJ/t;;;Specific energy consumption of Cement
+Specific Energy Consumption|Industry|Steel;MJ/t;;;Specific energy consumption of Steel
+Investments;billion US$2005/yr;1.10774;;Total economy wide investments (macroecomic capital stock,energy system,R&D,...)
+Energy Investments|Supply;billion US$2005/yr;1.10774;;investments into the energy supply system
+Energy Investments|CO2 Trans&Stor;billion US$2005/yr;1.10774;;investment in CO2 transport and storage (note that investment in the capturing equipment should be included along with the power plant technology)
+Energy Investments|Electricity;billion US$2005/yr;1.10774;;investments into electricity generation and supply (including electricity storage and transmission & distribution)
+Energy Investments|Elec|Biomass;billion US$2005/yr;1.10774;;investments in new power generation for the specified power plant category. If the model features several sub-categories,the total investments should be reported. For plants equipped with CCS,the investment in the capturing equipment should be included but not the one on transport and storage.
+Energy Investments|Elec|Biomass|w/ CCS;billion US$2005/yr;1.10774;;investments in new power generation for the specified power plant category. If the model features several sub-categories,the total investments should be reported. For plants equipped with CCS,the investment in the capturing equipment should be included but not the one on transport and storage.
+Energy Investments|Elec|Biomass|w/o CCS;billion US$2005/yr;1.10774;;investments in new power generation for the specified power plant category. If the model features several sub-categories,the total investments should be reported. For plants equipped with CCS,the investment in the capturing equipment should be included but not the one on transport and storage.
+Energy Investments|Elec|Coal;billion US$2005/yr;1.10774;;investments in new power generation for the specified power plant category. If the model features several sub-categories,the total investments should be reported. For plants equipped with CCS,the investment in the capturing equipment should be included but not the one on transport and storage.
+Energy Investments|Elec|Coal|w/ CCS;billion US$2005/yr;1.10774;;investments in new power generation for the specified power plant category. If the model features several sub-categories,the total investments should be reported. For plants equipped with CCS,the investment in the capturing equipment should be included but not the one on transport and storage.
+Energy Investments|Elec|Coal|w/o CCS;billion US$2005/yr;1.10774;;investments in new power generation for the specified power plant category. If the model features several sub-categories,the total investments should be reported. For plants equipped with CCS,the investment in the capturing equipment should be included but not the one on transport and storage.
+Energy Investments|Elec|Storage;billion US$2005/yr;1.10774;;investments in electricity storage technologies (e.g.,batteries,compressed air storage reservoirs,etc.)
+Energy Investments|Elec|Fossil;billion US$2005/yr;1.10774;;investments in new power generation for the specified power plant category. If the model features several sub-categories,the total investments should be reported. For plants equipped with CCS,the investment in the capturing equipment should be included but not the one on transport and storage.
+Energy Investments|Elec|Gas;billion US$2005/yr;1.10774;;investments in new power generation for the specified power plant category. If the model features several sub-categories,the total investments should be reported. For plants equipped with CCS,the investment in the capturing equipment should be included but not the one on transport and storage.
+Energy Investments|Elec|Gas|w/ CCS;billion US$2005/yr;1.10774;;investments in new power generation for the specified power plant category. If the model features several sub-categories,the total investments should be reported. For plants equipped with CCS,the investment in the capturing equipment should be included but not the one on transport and storage.
+Energy Investments|Elec|Gas|w/o CCS;billion US$2005/yr;1.10774;;investments in new power generation for the specified power plant category. If the model features several sub-categories,the total investments should be reported. For plants equipped with CCS,the investment in the capturing equipment should be included but not the one on transport and storage.
+Energy Investments|Elec|Geothermal;billion US$2005/yr;1.10774;;investments in new power generation for the specified power plant category. If the model features several sub-categories,the total investments should be reported. For plants equipped with CCS,the investment in the capturing equipment should be included but not the one on transport and storage.
+Energy Investments|Elec|Hydro;billion US$2005/yr;1.10774;;investments in new power generation for the specified power plant category. If the model features several sub-categories,the total investments should be reported. For plants equipped with CCS,the investment in the capturing equipment should be included but not the one on transport and storage.
+Energy Investments|Elec|Non-Bio Re;billion US$2005/yr;1.10774;;investments in new power generation for the specified power plant category. If the model features several sub-categories,the total investments should be reported. For plants equipped with CCS,the investment in the capturing equipment should be included but not the one on transport and storage.
+Energy Investments|Elec|Non-Fossil;billion US$2005/yr;1.10774;;investments in new power generation for the specified power plant category. If the model features several sub-categories,the total investments should be reported. For plants equipped with CCS,the investment in the capturing equipment should be included but not the one on transport and storage.
+Energy Investments|Elec|Nuclear;billion US$2005/yr;1.10774;;investments in new power generation for the specified power plant category. If the model features several sub-categories,the total investments should be reported. For plants equipped with CCS,the investment in the capturing equipment should be included but not the one on transport and storage.
+Energy Investments|Elec|Oil|w/o CCS;billion US$2005/yr;1.10774;;investments in new power generation for the specified power plant category. If the model features several sub-categories,the total investments should be reported. For plants equipped with CCS,the investment in the capturing equipment should be included but not the one on transport and storage.
+Energy Investments|Elec|Solar;billion US$2005/yr;1.10774;;investments in new power generation for the specified power plant category. If the model features several sub-categories,the total investments should be reported. For plants equipped with CCS,the investment in the capturing equipment should be included but not the one on transport and storage.
+Energy Investments|Elec|Grid;billion US$2005/yr;1.10774;;investments in transmission and distribution of power generation
+Energy Investments|Elec|Wind;billion US$2005/yr;1.10774;;investments in new power generation for the specified power plant category. If the model features several sub-categories,the total investments should be reported. For plants equipped with CCS,the investment in the capturing equipment should be included but not the one on transport and storage.
+Energy Investments|Heat;billion US$2005/yr;1.10774;;investments in heat generation facilities
+Energy Investments|Hydrogen;billion US$2005/yr;1.10774;;investments for the production of hydrogen
+Energy Investments|Hydrogen|Fossil;billion US$2005/yr;1.10774;;investments for the production of hydrogen from fossil fuels. For plants equipped with CCS,the investment in the capturing equipment should be included but not the one on transport and storage.
+Energy Investments|Hydrogen|RE;billion US$2005/yr;1.10774;;investments for the production of hydrogen from the specified source. For plants equipped with CCS,the investment in the capturing equipment should be included but not the one on transport and storage.
+Energy Investments|Liquids;billion US$2005/yr;1.10774;;investments for the production of liquid fuels. For plants equipped with CCS,the investment in the capturing equipment should be included but not the one on transport and storage.
+Energy Investments|Liquids|Bio;billion US$2005/yr;1.10774;;investments for the production of biofuels. These should not include the costs of the feedstock. For plants equipped with CCS,the investment in the capturing equipment should be included but not the one on transport and storage.
+Energy Investments|Liquids|Fossil;billion US$2005/yr;1.10774;;investments for the production of fossil-based synfuels (coal and gas). For plants equipped with CCS,the investment in the capturing equipment should be included but not the one on transport and storage.
+Energy Investments|Liquids|Oil Ref;billion US$2005/yr;1.10774;;investments for the production of fossil fuels from oil refineries For plants equipped with CCS,the investment in the capturing equipment should be included but not the one on transport and storage.
+Demand;Mt DM/yr;;;total demand for food,non-food and feed products (crops and livestock) and bioenergy crops (1st & 2nd generation)
+Demand|++|Crops;Mt DM/yr;;;total demand for food,non-food and feed crops and bioenergy crops (1st & 2nd generation)
+Demand|Bioenergy|+|Crops;Mt DM/yr;;;demand for modern primary energy crops (1st and 2nd generation)
+Demand|Bioenergy|+|Bioenergy crops;Mt DM/yr;;;demand for modern primary energy crops (1st and 2nd generation)
+Demand|Bioenergy|+|Crops;Mt DM/yr;;;Demand for modern primary 1st generation energy crops
+Demand|Bioenergy|+|Bioenergy crops;Mt DM/yr;;;
+Demand|Feed|+|Crops;Mt DM/yr;;;total demand for feed crops
+Demand|Food|+|Crops;Mt DM/yr;;;total demand for food crops
+Demand|Agricultural Supply Chain Loss|+|Crops;Mt DM/yr;;;total demand for other crops
+Demand|Domestic Balanceflow|+|Crops;Mt DM/yr;;;total demand for other crops
+Demand|Material|+|Crops;Mt DM/yr;;;total demand for other crops
+Demand|Processing|+|Crops;Mt DM/yr;;;total demand for other crops
+Demand|Seed|+|Crops;Mt DM/yr;;;total demand for other crops
+Demand|++|Livestock products;Mt DM/yr;;;total demand for livestock
+Demand|Food|+|Livestock products;Mt DM/yr;;;total demand for food livestock
+Demand|Agricultural Supply Chain Loss|+|Livestock products;Mt DM/yr;;;total demand for other livestock
+Demand|Bioenergy|+|Livestock products;Mt DM/yr;;;total demand for other livestock
+Demand|Domestic Balanceflow|+|Livestock products;Mt DM/yr;;;total demand for other livestock
+Demand|Feed|+|Livestock products;Mt DM/yr;;;total demand for other livestock
+Demand|Material|+|Livestock products;Mt DM/yr;;;total demand for other livestock
+Demand|Processing|+|Livestock products;Mt DM/yr;;;total demand for other livestock
+Demand|Seed|+|Livestock products;Mt DM/yr;;;total demand for other livestock
+Production;Mt DM/yr;;;total production of food,non-food and feed products (crops and livestock) and bioenergy crops (1st & 2nd generation)
+Production|+|Bioenergy crops;Mt DM/yr;;;total bioenergy-related agricultural production (including waste and residues)
+Demand|Bioenergy|+|Crop residues;Mt DM/yr;;;total bioenergy-related agricultural production (including waste and residues)
+Production|+|Bioenergy crops;Mt DM/yr;;;production for modern primary energy crops (1st and 2nd generation)
+Demand|Bioenergy|+|Crop residues;Mt DM/yr;;;production of agricultural residues for modern bioenergy production
+Production|+|Crops;Mt DM/yr;;;total production for food,non-food and feed products (crops and livestock)
+Production|+|Livestock products;Mt DM/yr;;;total production for food,non-food and feed products (crops and livestock)
+Production|+|Crops;Mt DM/yr;;;total production for food,non-food and feed products (crops)
+Production|+|Livestock products;Mt DM/yr;;;total production for livestock products
+Resources|Land Cover;million ha;;;total land cover
+Resources|Land Cover|+|Urban Area;million ha;;;total built-up land associated with human settlement
+Resources|Land Cover|+|Cropland;million ha;;;total arable land,i.e. land in non-forest bioenergy crop,food,and feed/fodder crops,as well as other arable land (cultivated area)
+Resources|Land Cover|Cropland|Crops|+|Cereals;million ha;;;land dedicated to cereal crops: wheat,rice and coarse grains (maize,corn,millet,sorghum,barley,oats,rye)
+Resources|Land Cover|Cropland|+|Bioenergy crops;million ha;;;land dedicated to both 1st & 2nd generation energy crops
+Resources|Land Cover|Cropland|+|Bioenergy crops;million ha;;;land dedicated to 2nd generation energy crops (e.g.,switchgrass,miscanthus,fast-growing wood species)
+Resources|Land Cover|Cropland|Bioenergy crops|irrigated;million ha;;;irrigated land dedicated to energy crops (e.g.,switchgrass,miscanthus,fast-growing wood species)
+Resources|Land Cover|Cropland|Crops|irrigated;million ha;;;irrigated arable land,i.e. land in non-forest bioenergy crop,food,and feed/fodder crops,as well as other arable land (cultivated area)
+Resources|Land Cover|Cropland|Crops|rainfed;million ha;;;area of land that is rain-fed
+Resources|Land Cover|+|Forest;million ha;;;managed and unmanaged forest area
+Resources|Land Cover|Forest|Managed Forest|+|NPI/NDC;million ha;;;area with afforestation and reforestation
+Resources|Land Cover|Forest|Managed Forest|+|Afforestation;million ha;;;area with afforestation and reforestation
+Resources|Land Cover|Forest|Managed Forest|+|Plantations;million ha;;;managed forests producing commercial wood supply for timber or energy (note: woody energy crops reported under â€˜energy cropsâ€™)
+Resources|Land Cover|Forest|Natural Forest|+|Primary Forest;million ha;;;undisturbed natural forests,modified natural forests
+Resources|Land Cover|Forest|Natural Forest|+|Secondary Forest;million ha;;;regrown (unmanaged) secondary forests,e.g. from abandoned agricultural land
+Resources|Land Cover|+|Other Land;million ha;;;other land cover that does not fit into any other category (e.g.,rock,ice,desert,water,please provide a definition of the sources in this category in the 'comments' tab)
+Resources|Land Cover|+|Pastures and Rangelands;million ha;;;pasture land. All categories of pasture land - not only high quality rangeland. Based on FAO definition of â€˜permanent meadows and pasturesâ€™
+Res|Extraction|Coal;EJ/yr;;;
+Res|Extraction|Gas;EJ/yr;;;
+Res|Extraction|Oil;EJ/yr;;;
+Nutrition|Calorie Supply;kcal/capita/day;;;all food demand in calories (conversion factor: 1 kcal = 4,1868 kJ)
+Nutrition|Calorie Supply|+|Crops;kcal/capita/day;;;crop related food demand in calories
+Nutrition|Calorie Supply|+|Livestock products;kcal/capita/day;;;livestock related food demand in calories
+Population;million;;;total population
+Population|Extreme poverty;million;;;population living in extreme poverty with income <US$2 2010 PPP per day
+Population|Primary education;million;;;population with primary education completed
+SDG|SDG02|Prevalence of underweight;million;;;population at risk of hunger,calculated by multipling total population and prevalence of undernourishment which is computed from a probability distribution of daily dietary energy consumption and minimum dietary energy requirement.
+Population|Secondary education;million;;;population with secondary education completed
+Population|Urban;million;;;total population living in urban areas
+Premature mortality|PM2_5;million;;;
+Subsidies;billion US$2005/yr;;;total energy-related subsidies
+Subsidies|Fuel Extraction;billion US$2005/yr;;;fossil fuel subsidies
+Water Consumption|Electricity w/o Hydro;km3/yr;;;
+Tech|Electricity|Biomass|IGCCC|w/ CCS|Efficiency;%;;;Conversion efficiency (electricity produced per unit of primary energy input) of a new biomass power plant with CCS. The efficiency should refer to the plant type(s) for which capital costs have been reported. If capital cost for more than one plant type has been reported,modellers should report efficiency for the additional plant types by adding variables Efficiency|Electricity| Biomass|w/ CCS|2,... Efficiency|Electricity|Biomass|w/ CCS|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Electricity|Biomass|CHP|w/o CCS|Efficiency;%;;;Conversion efficiency (electricity produced per unit of primary energy input) of a new biomass power plant w/o CCS. The efficiency should refer to the plant type(s) for which capital costs have been reported. If capital cost for more than one plant type has been reported,modellers should report efficiency for the additional plant types by adding variables Efficiency|Electricity|Biomass|w/o CCS|2,... Efficiency|Electricity|Biomass|w/o CCS|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Electricity|Coal|PCC|w/ CCS|Efficiency;%;;;Conversion efficiency (electricity produced per unit of primary energy input) of a new coal power plant with CCS. The efficiency should refer to the plant type(s) for which capital costs have been reported. If capital cost for more than one plant type has been reported,modellers should report efficiency for the additional plant types by adding variables Efficiency|Electricity|Coal|w/ CCS|2,... Efficiency|Electricity|Coal|w/ CCS|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Electricity|Coal|PC|w/o CCS|Efficiency;%;;;Conversion efficiency (electricity produced per unit of primary energy input) of a new coal power plant w/o CCS. The efficiency should refer to the plant type(s) for which capital costs have been reported. If capital cost for more than one plant type has been reported,modellers should report efficiency for the additional plant types by adding variables Efficiency|Electricity|Coal|w/o CCS|2,... Efficiency|Electricity|Coal|w/o CCS|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Electricity|Gas|CCC|w/ CCS|Efficiency;%;;;Conversion efficiency (electricity produced per unit of primary energy input) of a new gas power plant with CCS. The efficiency should refer to the plant type(s) for which capital costs have been reported. If capital cost for more than one plant type has been reported,modellers should report efficiency for the additional plant types by adding variables Efficiency|Electricity|Gas|w/ CCS|2,... Efficiency|Electricity|Gas|w/ CCS|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Electricity|Gas|CHP|w/o CCS|Efficiency;%;;;Conversion efficiency (electricity produced per unit of primary energy input) of a new gas power plant w/o CCS. The efficiency should refer to the plant type(s) for which capital costs have been reported. If capital cost for more than one plant type has been reported,modellers should report efficiency for the additional plant types by adding variables Efficiency|Electricity|Gas|w/o CCS|2,... Efficiency|Electricity|Gas|w/o CCS|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Gases|Biomass|w/o CCS|Efficiency;%;;;Conversion efficiency (energy content of gases produced per unit of primary energy input) of a new coal to gas plant w/o CCS. The efficiency should refer to the plant type(s) for which capital costs have been reported. If capital cost for more than one plant type has been reported,modellers should report efficiency for the additional plant types by adding variables Efficiency|Gases|Coal|w/o CCS|2,... Efficiency|Gases|Coal|w/o CCS|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Gases|Coal|w/o CCS|Efficiency;%;;;Conversion efficiency (energy content of gases produced per unit of primary energy input) of a new coal to gas plant w/o CCS. The efficiency should refer to the plant type(s) for which capital costs have been reported. If capital cost for more than one plant type has been reported,modellers should report efficiency for the additional plant types by adding variables Efficiency|Gases|Coal|w/o CCS|2,... Efficiency|Gases|Coal|w/o CCS|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Hydrogen|Biomass|w/ CCS|Efficiency;%;;;Conversion efficiency (energy content of hydrogen produced per unit of primary energy input) of a new biomass to hydrogen plant with CCS. The efficiency should refer to the plant type(s) for which capital costs have been reported. If capital cost for more than one plant type has been reported,modellers should report efficiency for the additional plant types by adding variables Efficiency|Hydrogen|Biomass|w/ CCS|2,... Efficiency|Hydrogen|Biomass|w/ CCS|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Hydrogen|Biomass|w/o CCS|Efficiency;%;;;Conversion efficiency (energy content of hydrogen produced per unit of primary energy input) of a new biomass to hydrogen plant w/o CCS. The efficiency should refer to the plant type(s) for which capital costs have been reported. If capital cost for more than one plant type has been reported,modellers should report efficiency for the additional plant types by adding variables Efficiency|Hydrogen|Biomass|w/o CCS|2,... Efficiency|Hydrogen|Biomass|w/o CCS|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Hydrogen|Coal|w/ CCS|Efficiency;%;;;Conversion efficiency (energy content of hydrogen produced per unit of primary energy input) of a new coal to hydrogen plant with CCS. The efficiency should refer to the plant type(s) for which capital costs have been reported. If capital cost for more than one plant type has been reported,modellers should report efficiency for the additional plant types by adding variables Efficiency|Hydrogen|Coal|w/ CCS|2,... Efficiency|Hydrogen|Coal|w/ CCS|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Hydrogen|Coal|w/o CCS|Efficiency;%;;;Conversion efficiency (energy content of hydrogen produced per unit of primary energy input) of a new coal to hydrogen plant w/o CCS. The efficiency should refer to the plant type(s) for which capital costs have been reported. If capital cost for more than one plant type has been reported,modellers should report efficiency for the additional plant types by adding variables Efficiency|Hydrogen|Coal|w/o CCS|2,... Efficiency|Hydrogen|Coal|w/o CCS|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Hydrogen|Electricity|Efficiency;%;;;Conversion efficiency (energy content of hydrogen produced per unit of electricity input) of a new hydrogen-by-electrolysis plant. The efficiency should refer to the plant type(s) for which capital costs have been reported. If capital cost for more than one plant type has been reported,modellers should report efficiency for the additional plant types by adding variables Efficiency|Hydrogen|Electricity|2,... Efficiency|Hydrogen|Electricity|w/ CCS|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Hydrogen|Gas|w/ CCS|Efficiency;%;;;Conversion efficiency (energy content of hydrogen produced per unit of primary energy input) of a new gas to hydrogen plant with CCS. The efficiency should refer to the plant type(s) for which capital costs have been reported. If capital cost for more than one plant type has been reported,modellers should report efficiency for the additional plant types by adding variables Efficiency|Hydrogen|Gas|w/ CCS|2,... Efficiency|Hydrogen|Gas|w/ CCS|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Hydrogen|Gas|w/o CCS|Efficiency;%;;;Conversion efficiency (energy content of hydrogen produced per unit of primary energy input) of a new gas to hydrogen plant w/o CCS. The efficiency should refer to the plant type(s) for which capital costs have been reported. If capital cost for more than one plant type has been reported,modellers should report efficiency for the additional plant types by adding variables Efficiency|Hydrogen|Gas|w/o CCS|2,... Efficiency|Hydrogen|Gas|w/o CCS|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Liquids|Biomass|Biofuel|BioFTRC|w/ CCS|Efficiency;%;;;Conversion efficiency (energy content of liquids produced per unit of primary energy input) of a new biomass to liquids plant with CCS. The efficiency should refer to the plant type(s) for which capital costs have been reported. If capital cost for more than one plant type has been reported,modellers should report efficiency for the additional plant types by adding variables Efficiency|Liquids|Biomass|w/ CCS|2,... Efficiency|Liquids|Biomass|w/ CCS|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Liquids|Biomass|Biofuel|BioFTR|w/o CCS|Efficiency;%;;;Conversion efficiency (energy content of liquids produced per unit of primary energy input) of a new biomass to liquids plant w/o CCS. The efficiency should refer to the plant type(s) for which capital costs have been reported. If capital cost for more than one plant type has been reported,modellers should report efficiency for the additional plant types by adding variables Efficiency|Liquids|Biomass|w/o CCS|2,... Efficiency|Liquids|Biomass|w/o CCS|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Liquids|Coal|w/ CCS|Efficiency;%;;;Conversion efficiency (energy content of liquids produced per unit of primary energy input) of a new coal to liquids plant with CCS. The efficiency should refer to the plant type(s) for which capital costs have been reported. If capital cost for more than one plant type has been reported,modellers should report efficiency for the additional plant types by adding variables Efficiency|Liquids|Coal|w/ CCS|2,... Efficiency|Liquids|Coal|w/ CCS|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Liquids|Coal|w/o CCS|Efficiency;%;;;Conversion efficiency (energy content of liquids produced per unit of primary energy input) of a new coal to liquids plant w/o CCS. The efficiency should refer to the plant type(s) for which capital costs have been reported. If capital cost for more than one plant type has been reported,modellers should report efficiency for the additional plant types by adding variables Efficiency|Liquids|Coal|w/o CCS|2,... Efficiency|Liquids|Coal|w/o CCS|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Liquids|Oil|Efficiency;%;;;Conversion efficiency (energy content of liquids produced per unit of primary energy input) of a new oil refining plant. The efficiency should refer to the plant type(s) for which capital costs have been reported. If capital cost for more than one plant type has been reported,modellers should report efficiency for the additional plant types by adding variables Efficiency|Liquids|Oil|2,... Efficiency|Electricity|Oil|w/o CCS|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Electricity|Biomass|IGCCC|w/ CCS|Lifetime;years;;;Lifetime of a new biomass power plant with CCS. Lifetime should be calculated by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5) * 10 years = 41 years) or by the e-folding time for exponential capacity depreciation.  The lifetime should refer to the plant type(s) for which capital costs have been reported. If capital cost for more than one plant type has been reported,modellers should report lifetime for the additional plant types by adding variables Lifetime|Electricity|Biomass|w/ CCS|2,... Lifetime|Electricity|Biomass|w/ CCS|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Electricity|Biomass|CHP|w/o CCS|Lifetime;years;;;Lifetime of a new biomass power plant w/o CCS. Lifetime should be calculated by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5) * 10 years = 41 years) or by the e-folding time for exponential capacity depreciation.  The lifetime should refer to the plant type(s) for which capital costs have been reported. If capital cost for more than one plant type has been reported,modellers should report lifetime for the additional plant types by adding variables Lifetime|Electricity|Biomass|w/o CCS|2,... Lifetime|Electricity|Biomass|w/o CCS|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Electricity|Coal|IGCCC|w/ CCS|Lifetime;years;;;Lifetime of a new coal power plant with CCS. Lifetime should be calculated by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5) * 10 years = 41 years) or by the e-folding time for exponential capacity depreciation.  The lifetime should refer to the plant type(s) for which capital costs have been reported. If capital cost for more than one plant type has been reported,modellers should report lifetime for the additional plant types by adding variables Lifetime|Electricity|Coal|w/ CCS|2,... Lifetime|Electricity|Coal|w/ CCS|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Electricity|Coal|PC|w/o CCS|Lifetime;years;;;Lifetime of a new coal power plant w/o CCS. Lifetime should be calculated by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5) * 10 years = 41 years) or by the e-folding time for exponential capacity depreciation.  The lifetime should refer to the plant type(s) for which capital costs have been reported. If capital cost for more than one plant type has been reported,modellers should report lifetime for the additional plant types by adding variables Lifetime|Electricity|Coal|w/o CCS|2,... Lifetime|Electricity|Coal|w/o CCS|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Electricity|Gas|CCC|w/ CCS|Lifetime;years;;;Lifetime of a new gas power plant with CCS. Lifetime should be calculated by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5) * 10 years = 41 years) or by the e-folding time for exponential capacity depreciation.  The lifetime should refer to the plant type(s) for which capital costs have been reported. If capital cost for more than one plant type has been reported,modellers should report lifetime for the additional plant types by adding variables Lifetime|Electricity|Gas|w/ CCS|2,... Lifetime|Electricity|Gas|w/ CCS|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Electricity|Gas|CHP|w/o CCS|Lifetime;years;;;Lifetime of a new gas power plant w/o CCS. Lifetime should be calculated by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5) * 10 years = 41 years) or by the e-folding time for exponential capacity depreciation.  The lifetime should refer to the plant type(s) for which capital costs have been reported. If capital cost for more than one plant type has been reported,modellers should report lifetime for the additional plant types by adding variables Lifetime|Electricity|Gas|w/o CCS|2,... Lifetime|Electricity|Gas|w/o CCS|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Electricity|Geothermal|Lifetime;years;;;Lifetime of a new geothermal power plant. Lifetime should be calculated by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5) * 10 years = 41 years) or by the e-folding time for exponential capacity depreciation.  The lifetime should refer to the plant type(s) for which capital costs have been reported. If capital cost for more than one plant type has been reported,modellers should report lifetime for the additional plant types by adding variables Lifetime|Electricity|Geothermal|2,... Lifetime|Electricity|Geothermal|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Electricity|Hydro|Lifetime;years;;;Lifetime of a new hydropower plant. Lifetime should be calculated by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5) * 10 years = 41 years) or by the e-folding time for exponential capacity depreciation.  The lifetime should refer to the plant type(s) for which capital costs have been reported. If capital cost for more than one plant type has been reported,modellers should report lifetime for the additional plant types by adding variables Lifetime|Electricity|Hydro|2,... Lifetime|Electricity|Hydro|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Electricity|Nuclear|Lifetime;years;;;Lifetime of a new nuclear power plant. Lifetime should be calculated by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5) * 10 years = 41 years) or by the e-folding time for exponential capacity depreciation.  The lifetime should refer to the plant type(s) for which capital costs have been reported. If capital cost for more than one plant type has been reported,modellers should report lifetime for the additional plant types by adding variables Lifetime|Electricity|Nuclear|2,... Lifetime|Electricity|Nuclear|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Electricity|Solar|CSP|Lifetime;years;;;Lifetime of a new concentrated solar power plant. Lifetime should be calculated by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5) * 10 years = 41 years) or by the e-folding time for exponential capacity depreciation.  The lifetime should refer to the plant type(s) for which capital costs have been reported. If capital cost for more than one plant type has been reported,modellers should report lifetime for the additional plant types by adding variables Lifetime|Electricity|Solar|CSP|2,... Lifetime|Electricity|Solar|CSP|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Electricity|Solar|PV|Lifetime;years;;;Lifetime of a new PV unit. Lifetime should be calculated by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5) * 10 years = 41 years) or by the e-folding time for exponential capacity depreciation.  The lifetime should refer to the plant type(s) for which capital costs have been reported. If capital cost for more than one plant type has been reported,modellers should report lifetime for the additional plant types by adding variables Lifetime|Electricity|Solar|PV|2,... Lifetime|Electricity|Solar|PV|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Electricity|Wind|Lifetime;years;;;Lifetime of a new wind power plant (report only if wind power is not separated in onshore and offshore). Lifetime should be calculated by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5) * 10 years = 41 years) or by the e-folding time for exponential capacity depreciation.  The lifetime should refer to the plant type(s) for which capital costs have been reported. If capital cost for more than one plant type has been reported,modellers should report lifetime for the additional plant types by adding variables Lifetime|Electricity|Wind|2,... Lifetime|Electricity|Wind|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Gases|Biomass|w/o CCS|Lifetime;years;;;Lifetime of a new biomass to gas plant w/o CCS. Lifetime should be calculated by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5) * 10 years = 41 years) or by the e-folding time for exponential capacity depreciation.  The lifetime should refer to the plant type(s) for which capital costs have been reported. If capital cost for more than one plant type has been reported,modellers should report lifetime for the additional plant types by adding variables Lifetime|Gases|Biomass|w/o CCS|2,... Lifetime|Gases|Biomass|w/o CCS|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Gases|Coal|w/o CCS|Lifetime;years;;;Lifetime of a new coal to gas plant w/o CCS. Lifetime should be calculated by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5) * 10 years = 41 years) or by the e-folding time for exponential capacity depreciation.  The lifetime should refer to the plant type(s) for which capital costs have been reported. If capital cost for more than one plant type has been reported,modellers should report lifetime for the additional plant types by adding variables Lifetime|Gases|Coal|w/o CCS|2,... Lifetime|Gases|Coal|w/o CCS|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Hydrogen|Biomass|w/ CCS|Lifetime;years;;;Lifetime of a new biomass to hydrogen plant with CCS. Lifetime should be calculated by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5) * 10 years = 41 years) or by the e-folding time for exponential capacity depreciation.  The lifetime should refer to the plant type(s) for which capital costs have been reported. If capital cost for more than one plant type has been reported,modellers should report lifetime for the additional plant types by adding variables Lifetime|Hydrogen|Biomass|w/ CCS|2,... Lifetime|Hydrogen|Biomass|w/ CCS|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Hydrogen|Biomass|w/o CCS|Lifetime;years;;;Lifetime of a new biomass to hydrogen plant w/o CCS. Lifetime should be calculated by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5) * 10 years = 41 years) or by the e-folding time for exponential capacity depreciation.  The lifetime should refer to the plant type(s) for which capital costs have been reported. If capital cost for more than one plant type has been reported,modellers should report lifetime for the additional plant types by adding variables Lifetime|Hydrogen|Biomass|w/o CCS|2,... Lifetime|Hydrogen|Biomass|w/o CCS|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Hydrogen|Coal|w/ CCS|Lifetime;years;;;Lifetime of a new coal to hydrogen plant with CCS. Lifetime should be calculated by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5) * 10 years = 41 years) or by the e-folding time for exponential capacity depreciation.  The lifetime should refer to the plant type(s) for which capital costs have been reported. If capital cost for more than one plant type has been reported,modellers should report lifetime for the additional plant types by adding variables Lifetime|Hydrogen|Coal|w/ CCS|2,... Lifetime|Hydrogen|Coal|w/ CCS|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Hydrogen|Coal|w/o CCS|Lifetime;years;;;Lifetime of a new coal to hydrogen plant w/o CCS. Lifetime should be calculated by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5) * 10 years = 41 years) or by the e-folding time for exponential capacity depreciation.  The lifetime should refer to the plant type(s) for which capital costs have been reported. If capital cost for more than one plant type has been reported,modellers should report lifetime for the additional plant types by adding variables Lifetime|Hydrogen|Coal|w/o CCS|2,... Lifetime|Hydrogen|Coal|w/o CCS|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Hydrogen|Electricity|Lifetime;years;;;Lifetime of a new hydrogen-by-electrolysis plant. Lifetime should be calculated by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5) * 10 years = 41 years) or by the e-folding time for exponential capacity depreciation.  The lifetime should refer to the plant type(s) for which capital costs have been reported. If capital cost for more than one plant type has been reported,modellers should report lifetime for the additional plant types by adding variables Lifetime|Hydrogen|Electricity|w/ CCS|2,... Lifetime|Hydrogen|Electricity|w/ CCS|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Hydrogen|Gas|w/ CCS|Lifetime;years;;;Lifetime of a new gas to hydrogen plant with CCS. Lifetime should be calculated by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5) * 10 years = 41 years) or by the e-folding time for exponential capacity depreciation.  The lifetime should refer to the plant type(s) for which capital costs have been reported. If capital cost for more than one plant type has been reported,modellers should report lifetime for the additional plant types by adding variables Lifetime|Hydrogen|Gas|w/ CCS|2,... Lifetime|Hydrogen|Gas|w/ CCS|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Hydrogen|Gas|w/o CCS|Lifetime;years;;;Lifetime of a new gas to hydrogen plant w/o CCS. Lifetime should be calculated by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5) * 10 years = 41 years) or by the e-folding time for exponential capacity depreciation.  The lifetime should refer to the plant type(s) for which capital costs have been reported. If capital cost for more than one plant type has been reported,modellers should report lifetime for the additional plant types by adding variables Lifetime|Hydrogen|Gas|w/o CCS|2,... Lifetime|Hydrogen|Gas|w/o CCS|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Liquids|Biomass|Biofuel|BioFTRC|w/ CCS|Lifetime;years;;;Lifetime of a new biomass to liquids plant with CCS. Lifetime should be calculated by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5) * 10 years = 41 years) or by the e-folding time for exponential capacity depreciation.  The lifetime should refer to the plant type(s) for which capital costs have been reported. If capital cost for more than one plant type has been reported,modellers should report lifetime for the additional plant types by adding variables Lifetime|Liquids|Biomass|w/ CCS|2,... Lifetime|Liquids|Biomass|w/ CCS|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Liquids|Biomass|Biofuel|BioFTR|w/o CCS|Lifetime;years;;;Lifetime of a new biomass to liquids plant w/o CCS. Lifetime should be calculated by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5) * 10 years = 41 years) or by the e-folding time for exponential capacity depreciation.  The lifetime should refer to the plant type(s) for which capital costs have been reported. If capital cost for more than one plant type has been reported,modellers should report lifetime for the additional plant types by adding variables Lifetime|Liquids|Biomass|w/o CCS|2,... Lifetime|Liquids|Biomass|w/o CCS|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Liquids|Coal|w/ CCS|Lifetime;years;;;Lifetime of a new coal to liquids plant with CCS. Lifetime should be calculated by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5) * 10 years = 41 years) or by the e-folding time for exponential capacity depreciation.  The lifetime should refer to the plant type(s) for which capital costs have been reported. If capital cost for more than one plant type has been reported,modellers should report lifetime for the additional plant types by adding variables Lifetime|Liquids|Coal|w/ CCS|2,... Lifetime|Liquids|Coal|w/ CCS|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Liquids|Coal|w/o CCS|Lifetime;years;;;Lifetime of a new coal to liquids plant w/o CCS. Lifetime should be calculated by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5) * 10 years = 41 years) or by the e-folding time for exponential capacity depreciation.  The lifetime should refer to the plant type(s) for which capital costs have been reported. If capital cost for more than one plant type has been reported,modellers should report lifetime for the additional plant types by adding variables Lifetime|Liquids|Coal|w/o CCS|2,... Lifetime|Liquids|Coal|w/o CCS|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Liquids|Oil|Lifetime;years;;;Lifetime of a new oil refining plant. Lifetime should be calculated by summing all vintages of a  capacity unit (e.g. (1+1+0.9+0.7+0.5) * 10 years = 41 years) or by the e-folding time for exponential capacity depreciation.  The lifetime should refer to the plant type(s) for which capital costs have been reported. If capital cost for more than one plant type has been reported,modellers should report lifetime for the additional plant types by adding variables Lifetime|Liquids|Oil|w/ CCS|2,... Lifetime|Liquids|Oil|w/ CCS|N (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Electricity|Biomass|IGCCC|w/ CCS|OM Cost|fixed;US$2005/kW/yr;1.10774;;Annual fixed operation & maintainance cost of a new biomass power plant with CCS. If more than one CCS biomass power technology is modelled,modellers should report fixed O&M costs  for each represented CCS biomass power technology by adding variables OM Cost|Fixed|Electricity|Biomass|w/ CCS|2,... OM Cost|Fixed|Electricity|Biomass|w/ CCS|N (with N = number of represented technologies) (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Electricity|Biomass|CHP|w/o CCS|OM Cost|fixed;US$2005/kW/yr;1.10774;;Annual fixed operation & maintainance cost of a new biomass power plant w/o CCS. If more than one biomass power technology is modelled,modellers should report fixed O&M costs  for each represented biomass power technology by adding variables OM Cost|Fixed|Electricity|Biomass|w/o CCS|2,... OM Cost|Fixed|Electricity|Biomass|w/o CCS|N (with N = number of represented technologies) (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Electricity|Coal|IGCCC|w/ CCS|OM Cost|fixed;US$2005/kW/yr;1.10774;;Annual fixed operation & maintainance cost of a new coal power plant with CCS. If more than one CCS coal power technology is modelled (e.g. subcritical PC with post-combustion capture,supercritical PC with post-combustion capture,supercritical PC with oxyfuel combustion and capture,IGCC with pre-combustion capture),modellers should report fixed O&M costs  for each represented CCS coal power technology by adding variables OM Cost|Fixed|Electricity|Coal|w/ CCS|2,... OM Cost|Fixed|Electricity|Coal|w/ CCS|N (with N = number of represented technologies) (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Electricity|Coal|PC|w/o CCS|OM Cost|fixed;US$2005/kW/yr;1.10774;;Annual fixed operation & maintainance cost of a new coal power plant w/o CCS. If more than one coal power technology is modelled (e.g. subcritical PC,supercritical PC,IGCC),modellers should report fixed O&M costs  for each represented coal power technology by adding variables OM Cost|Fixed|Electricity|Coal|w/o CCS|2,... OM Cost|Fixed|Electricity|Coal|w/o CCS|N (with N = number of represented technologies) (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Electricity|Gas|CCC|w/ CCS|OM Cost|fixed;US$2005/kW/yr;1.10774;;Annual fixed operation & maintainance cost of a new gas power plant with CCS. If more than one CCS gas power technology is modelled,modellers should report fixed O&M costs  for each represented CCS gas power technology by adding variables OM Cost|Fixed|Electricity|Gas|w/ CCS|2,... OM Cost|Fixed|Electricity|Gas|w/ CCS|N (with N = number of represented technologies) (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Electricity|Gas|CHP|w/o CCS|OM Cost|fixed;US$2005/kW/yr;1.10774;;Annual fixed operation & maintainance cost of a new gas power plant w/o CCS. If more than one gas power technology is modelled,modellers should report fixed O&M costs  for each represented gas power technology by adding variables OM Cost|Fixed|Electricity|Gas|w/o CCS|2,... OM Cost|Fixed|Electricity|Gas|w/o CCS|N (with N = number of represented technologies) (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Electricity|Geothermal|OM Cost|fixed;US$2005/kW/yr;1.10774;;Annual fixed operation & maintainance cost of a new geothermal power plants. If more than one geothermal power plant technology is modelled (e.g.,hydrothermal,hard dry rock),modellers should report fixed O&M costs  for each represented geothermal power technology by adding variables OM Cost|Fixed|Electricity|Geothermal|2,... Capital|Cost|Electricity|Geothermal|N (with N = number of represented geothermal power technologies) (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Electricity|Hydro|OM Cost|fixed;US$2005/kW/yr;1.10774;;Annual fixed operation & maintainance cost of a new hydropower plant. If more than one hydropower technology is modelled,modellers should report fixed O&M costs  for each represented hydropower technology by adding variables OM Cost|Fixed|Electricity|Hydro|2,... OM Cost|Fixed|Electricity|Hydro|N (with N = number of represented technologies) (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Electricity|Nuclear|OM Cost|fixed;US$2005/kW/yr;1.10774;;Annual fixed operation & maintainance cost of a new nuclear power plants. If more than one nuclear power plant technology is modelled (e.g.,Gen II,III,IV
+Tech|Electricity|Solar|PV|OM Cost|fixed;US$2005/kW/yr;1.10774;;Annual fixed operation & maintainance cost of a new concentrated solar power plant. If more than one CSP technology is modelled (e.g.,parabolic trough,solar power tower),modellers should report fixed O&M costs  for each represented CSP technology by adding variables OM Cost|Fixed|Electricity|Solar|CSP|2,... Capital|Cost|Electricity|Solar|CSP|N (with N = number of represented CSP technologies) (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Electricity|Solar|CSP|OM Cost|fixed;US$2005/kW/yr;1.10774;;Annual fixed operation & maintainance cost of a new solar PV units. If more than one PV technology is modelled (e.g.,centralized PV plant,distributed (rooftop) PV,crystalline SI PV,thin-film PV),modellers should report fixed O&M costs  for each represented PV technology by adding variables OM Cost|Fixed|Electricity|Solar|PV|2,... Capital|Cost|Electricity|Solar|PV|N (with N = number of represented PV technologies) (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Electricity|Wind|OM Cost|fixed;US$2005/kW/yr;1.10774;;Annual fixed operation & maintainance cost of a new wind power plants. This variable should only be filled,if wind power is not separated into onshore and offshore. If more than one wind power technology is modelled (e.g.,wind power units with different hub height and capacity),modellers should report fixed O&M costs  for each represented wind power technology by adding variables OM Cost|Fixed|Electricity|Wind|2,... Capital|Cost|Electricity|Wind|N (with N = number of represented wind power technologies) (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Gases|Biomass|w/o CCS|OM Cost|fixed;US$2005/kW/yr;1.10774;;Annual fixed operation & maintainance cost of a new biomass to gas plant w/o CCS. If more than one biomass to gas technology is modelled,modellers should report fixed O&M costs  for each represented biomass to gas technology by adding variables OM Cost|Fixed|Gases|Biomass|w/o CCS|2,... OM Cost|Fixed|Gases|Biomass|w/o CCS|N (with N = number of represented technologies). (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Gases|Coal|w/o CCS|OM Cost|fixed;US$2005/kW/yr;1.10774;;Annual fixed operation & maintainance cost of a new coal to gas plant w/o CCS. If more than one coal to gas technology is modelled,modellers should report fixed O&M costs  for each represented coal to gas technology by adding variables OM Cost|Fixed|Gases|Coal|w/o CCS|2,... OM Cost|Fixed|Gases|Coal|w/o CCS|N (with N = number of represented technologies) (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Hydrogen|Biomass|w/ CCS|OM Cost|fixed;US$2005/kW/yr;1.10774;;Annual fixed operation & maintainance cost of a new biomass to hydrogen plant with CCS. If more than one CCS biomass to hydrogen technology is modelled,modellers should report fixed O&M costs  for each represented CCS biomass to hydrogen technology by adding variables OM Cost|Fixed|Hydrogen|Biomass|w/ CCS|2,... OM Cost|Fixed|Hydrogen|Biomass|w/ CCS|N (with N = number of represented technologies) (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Hydrogen|Biomass|w/o CCS|OM Cost|fixed;US$2005/kW/yr;1.10774;;Annual fixed operation & maintainance cost of a new biomass to hydrogen plant w/o CCS. If more than one biomass to hydrogen technology is modelled,modellers should report fixed O&M costs  for each represented biomass to hydrogen technology by adding variables OM Cost|Fixed|Hydrogen|Biomass|w/o CCS|2,... OM Cost|Fixed|Hydrogen|Biomass|w/o CCS|N (with N = number of represented technologies) (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Hydrogen|Coal|w/ CCS|OM Cost|fixed;US$2005/kW/yr;1.10774;;Annual fixed operation & maintainance cost of a new coal to hydrogen plant with CCS. If more than one CCS coal to hydrogen technology is modelled,modellers should report fixed O&M costs  for each represented CCS coal to hydrogen technology by adding variables OM Cost|Fixed|Hydrogen|Coal|w/ CCS|2,... OM Cost|Fixed|Hydrogen|Coal|w/ CCS|N (with N = number of represented technologies) (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Hydrogen|Coal|w/o CCS|OM Cost|fixed;US$2005/kW/yr;1.10774;;Annual fixed operation & maintainance cost of a new coal to hydrogen plant w/o CCS. If more than one coal to hydrogen technology is modelled,modellers should report fixed O&M costs  for each represented coal to hydrogen technology by adding variables OM Cost|Fixed|Hydrogen|Coal|w/o CCS|2,... OM Cost|Fixed|Hydrogen|Coal|w/o CCS|N (with N = number of represented technologies) (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Hydrogen|Electricity|OM Cost|fixed;US$2005/kW/yr;1.10774;;Annual fixed operation & maintainance cost of a new hydrogen-by-electrolysis plant. If more than hydrogen-by-electrolysis technology is modelled,modellers should report fixed O&M costs  for each represented hydrogen-by-electrolysis technology by adding variables OM Cost|Fixed|Hydrogen|Electricity|2,... OM Cost|Fixed|Hydrogen|Electricity|N (with N = number of represented technologies) (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Hydrogen|Gas|w/ CCS|OM Cost|fixed;US$2005/kW/yr;1.10774;;Annual fixed operation & maintainance cost of a new gas to hydrogen plant with CCS. If more than one CCS gas to hydrogen technology is modelled,modellers should report fixed O&M costs  for each represented CCS gas to hydrogen technology by adding variables OM Cost|Fixed|Hydrogen|Gas|w/ CCS|2,... OM Cost|Fixed|Hydrogen|Gas|w/ CCS|N (with N = number of represented technologies) (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Hydrogen|Gas|w/o CCS|OM Cost|fixed;US$2005/kW/yr;1.10774;;Annual fixed operation & maintainance cost of a new gas to hydrogen plant w/o CCS. If more than one gas to hydrogen technology is modelled,modellers should report fixed O&M costs  for each represented gas to hydrogen technology by adding variables OM Cost|Fixed|Hydrogen|Gas|w/o CCS|2,... OM Cost|Fixed|Hydrogen|Gas|w/o CCS|N (with N = number of represented technologies) (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Liquids|Biomass|Biofuel|BioFTRC|w/ CCS|OM Cost|fixed;US$2005/kW/yr;1.10774;;Annual fixed operation & maintainance cost of a new biomass to liquids plant with CCS. If more than one CCS BTL technology is modelled,modellers should report fixed O&M costs  for each represented CCS BTL technology by adding variables OM Cost|Fixed|Liquids|Biomass|w/ CCS|2,... OM Cost|Fixed|Liquids|Biomass|w/ CCS|N (with N = number of represented technologies) (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Liquids|Biomass|Biofuel|BioFTR|w/o CCS|OM Cost|fixed;US$2005/kW/yr;1.10774;;Annual fixed operation & maintainance cost of a new biomass to liquids plant w/o CCS. If more than one BTL technology is modelled,modellers should report fixed O&M costs  for each represented BTL technology by adding variables OM Cost|Fixed|Liquids|Biomass|w/o CCS|2,... OM Cost|Fixed|Liquids|Biomass|w/o CCS|N (with N = number of represented technologies) (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Liquids|Coal|w/ CCS|OM Cost|fixed;US$2005/kW/yr;1.10774;;Annual fixed operation & maintainance cost of a new coal to liquids plant with CCS. If more than one CCS CTL technology is modelled,modellers should report fixed O&M costs  for each represented CCS CTL technology by adding variables OM Cost|Fixed|Liquids|Coal|w/ CCS|2,... OM Cost|Fixed|Liquids|Coal|w/ CCS|N (with N = number of represented technologies) (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Liquids|Coal|w/o CCS|OM Cost|fixed;US$2005/kW/yr;1.10774;;Annual fixed operation & maintainance cost of a new coal to liquids plant w/o CCS. If more than one CTL technology is modelled,modellers should report fixed O&M costs  for each represented CTL technology by adding variables OM Cost|Fixed|Liquids|Coal|w/o CCS|2,... OM Cost|Fixed|Liquids|Coal|w/o CCS|N (with N = number of represented technologies) (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Tech|Liquids|Oil|OM Cost|fixed;US$2005/kW/yr;1.10774;;Annual fixed operation & maintainance cost of a new oil refining plant. If more than one refinery technology is modelled,modellers should report fixed O&M costs  for each represented refinery technology by adding variables OM Cost|Fixed|Liquids|Oil|2,... OM Cost|Fixed|Liquids|Oil|N (with N = number of represented technologies) (matching the assignment of plant types to technologies in the reporting of capital costs as documented in the comments sheet).
+Trade|Goods;billion US$2005/yr;1.10774;;
+Water Consumption|Electricity;km3/yr;;;Water consumption for electricity generation
+SDG|SDG06|Agricultural water use;km3/yr;;;water withdrawal for irrigation
+UE|per capita|Transport|Pass;GJ/cap/yr;;;Useful energy per capita for passenger transport.
+Disability-Adjusted Life Year|PM2_5;DALY/yr;;;Disability adjusted life years lost per year from air pollution health impact
+UE|per capita|Buildings;GJ/cap/yr;;;Useful energy per capita for buildings
+Intensity|Final Energy;EJ/billion US$2010;;;Final energy / GDP PPP
+Final Energy|Industry|Electricity|Share;%;;;Share of electrified FE in industry
+Air pollution concentration|PM2_5|Urban population;ug/m3;;;Urban population weighted annual average PM2.5 concentrations.
+Population|Poverty|LMIC poverty line;million;;;population living in poverty with income <US$3.20 2011 PPP per day (World Bank LMIC definition)
+Population|Poverty|UMIC poverty line;million;;;population living in poverty with income <US$5.50 2011 PPP per day (World Bank LMIC definition)
+Population|Gender education gap|Primary;percentage points;;;difference between genders in primary education completion rate (age 15+)
+Population|Gender education gap|Secondary;percentage points;;;difference between genders in secondary education completion rate (age 20+)
+GDP|PPP|Per capita growth rate;percent;;;GDP/cap (PPP) growth rate
+GDP|PPP|Per capita ratio to OECD;percent;;;Ratio of GDP/cap (PPP) of developing regions to OECD average
+Population|Relative poverty|wrt median income|Share;percent;;;Share of population below 50% of national median income
+Inequality|Bottom 40% average income|Ratio;percent;;;Average income of bottom 40% relative to national average
+Policy Cost|Transfers;billion US$2005/yr;1.10774;;Net international climate finance transfers (positive for inflow,negative for payment)
+SDG|SDG02|Prevalence of underweight;million;;;Number of adults with BMI<18.5 and children with <-1SD from reference BMI
+SDG|SDG02|Prevalence of underweight|Children;million;;;Number of underweight children (-2SD from reference BMI, aged 0--14)
+SDG|SDG03|Prevalence of overweight;million;;;Number of adults with BMI>25 and children with >1SD from reference BMI
+SDG|SDG03|Prevalence of overweight|Children;million;;;Number of overweight children (+1SD from reference BMI, aged 0--14)
+SDG|SDG03|Prevalence of obesity;million;;;Number of adults with BMI>30 and children with >2SD from reference BMI
+SDG|SDG03|Prevalence of obesity|Children;million;;;Number of obese children (+2SD from reference BMI, aged 0--14)
+SDG|SDG02|Food availability;kcal/cap/day;;;Food available for consumption per capita
+SDG|SDG12|Food waste;kcal/cap/day;;;Food waste per capita
+SDG|SDG02|Food expenditure share;income;100;;Share of food expenditure in total income
+SDG|SDG12|Material footprint;tDM/capita/yr;;;Biomass usage per capita (excluding pasture + forestry)
+SDG|SDG15|Forest share;share of total land;100;;Managed and unmanaged forests as share of total terrestrial land area (excluding surface water)
+Biodiversity|BII;unitless;;;Biodiversity Intactness Index (BII)
+Ocean|pH value;-;;;Ocean acidification: pH value
+Ocean|Carbonate Saturation|Calcite;-;;;Saturation state of calcite (Omega_C)
+Ocean|Carbonate Saturation|Aragonite;-;;;Saturation state of aragonite (Omega_A)
+Ocean|Net primary production;GtC/yr;-;;Net primary production of biomass in oceans
+Ocean|New production;GtC/yr;;;New production of biomass in oceans
+Ocean|Extension of suboxic zones;km3;;;Extension of suboxic zones in oceans
+Political institutions|Equality before law and individual liberty;-;;;aggregated â€˜Equality Before the Law and Individual Liberty' index (0-1) as defined by V-DEM
