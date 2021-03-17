@@ -41,7 +41,7 @@ The package comes with a small example data set `example_REMIND` supposed to be 
 To show the functionality of the package some mistakes have been introduced into the example data set. The following command detects these mistakes by triggering all pre-checks and checks that are stored in "iamc/R/":
 
 ```{r, echo=TRUE}
-library(iamc)
+library(piamModelTests)
 out <- iamCheck(example_REMIND, cfg="example_CFG")
 ```
 
@@ -99,7 +99,7 @@ By default iamCheck will only look for checks which are part of the package, but
 To add for instance a 42 check which makes sure that values lie between 42 and 2*42, you can write a function `check42` following the rules mentioned above and run `iamCheck` with `globalenv = TRUE`:
 
 ```{r, echo=TRUE}
-library(iamc)
+library(piamModelTests)
 
 check42 <- function(x) {
   # perform the check

@@ -1,6 +1,6 @@
 {
-  "title": "iamc: IAMC Tools",
-  "version": "0.30.0",
+  "title": "piamModelTests: piamModelTests Tools",
+  "version": "0.31.0",
   "description": "<p>A collection of R tools provided by the Integrated Assessment Modeling Consortium (IAMC) for data analysis and diagnostics. <\/p>",
   "creators": [
     {

@@ -1,8 +1,8 @@
-# IAMC Tools
+# piamModelTests Tools
 
-R package **iamc**, version **0.30.0**
+R package **piamModelTests**, version **0.31.0**
 
-[![CRAN status](https://www.r-pkg.org/badges/version/iamc)](https://cran.r-project.org/package=iamc)    
+[![CRAN status](https://www.r-pkg.org/badges/version/piamModelTests)](https://cran.r-project.org/package=piamModelTests)    
 
 ## Purpose and Functionality
 
@@ -21,7 +21,7 @@ The additional repository can be made available permanently by adding the line a
 After that the most recent version of the package can be installed using `install.packages`:
 
 ```r 
-install.packages("iamc")
+install.packages("piamModelTests")
 ```
 
 Package updates can be installed using `update.packages` (make sure that the additional repository has been added before running that command):
@@ -44,19 +44,18 @@ In case of questions / problems please contact Jan Philipp Dietrich <dietrich@pi
 
 ## Citation
 
-To cite package **iamc** in publications use:
+To cite package **piamModelTests** in publications use:
 
-Dietrich J, Auer C, Giannousakis A, Bertram C, Benke F, Humpenoeder F, Baumstark
-L (2021). _iamc: IAMC Tools_. R package version 0.30.0.
+Dietrich J, Auer C, Giannousakis A, Bertram C, Benke F, Humpenoeder F, Baumstark L (2021). _piamModelTests: piamModelTests Tools_. R package version 0.31.0.
 
 A BibTeX entry for LaTeX users is
 
  ```latex
 @Manual{,
-  title = {iamc: IAMC Tools},
+  title = {piamModelTests: piamModelTests Tools},
   author = {Jan Philipp Dietrich and Cornelia Auer and Anastasis Giannousakis and Christoph Bertram and Falk Benke and Florian Humpenoeder and Lavinia Baumstark},
   year = {2021},
-  note = {R package version 0.30.0},
+  note = {R package version 0.31.0},
 }
 ```
 
