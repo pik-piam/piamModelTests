@@ -19,10 +19,10 @@ iamProjectConfig <- function(cfg="CDLINKS") {
   #read config file
   if(!is.character(cfg) & !is.data.frame(cfg)) stop("Illegal cfg. Configuration must be provided as poject name, file path or data frame!")
   if(is.character(cfg)) {
-    configs <- dir(system.file("extdata",package = "iamc"))
+    configs <- dir(system.file("extdata",package = "piamModelTests"))
     names(configs) <- tolower(sub(".csv","",configs))
     if(tolower(cfg) %in% names(configs))  {
-      cfg <- system.file("extdata",configs[tolower(cfg)],package = "iamc")
+      cfg <- system.file("extdata",configs[tolower(cfg)],package = "piamModelTests")
     } else if(!file.exists(cfg)) {
       stop("Given cfg setting is neither a project for which a configuration exists nor an existing configuration file!")
     }
