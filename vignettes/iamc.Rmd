@@ -13,6 +13,8 @@ vignette: >
 knitr::opts_chunk$set(collapse = TRUE, comment = "#>")
 ```
 
+NOTE: this package is identical to the https://github.com/IAMconsortium/iamc R package, and serves as temporary vessel for checks developed at PIK's RD3. The functionality is exactly the same, thus below `iamc` means also `piamModelTests`.
+
 ## Purpose and Functionality
 
 The iamc R package is a collection of R tools provided by the Integrated Assessment Modeling Consortium (IAMC) for data consistency checks. It can be used to make sure that a data set is in line with rules defined by a given project. These rules can be a naming convention or unit convention for variables, but also qualitative measures such as lower or upper bounds for certain variables. Besides that the data can be validated against reference data.
