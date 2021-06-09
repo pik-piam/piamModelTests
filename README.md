@@ -1,6 +1,6 @@
 # piamModelTests Tools
 
-R package **piamModelTests**, version **0.31.1**
+R package **piamModelTests**, version **0.31.2**
 
 [![CRAN status](https://www.r-pkg.org/badges/version/piamModelTests)](https://cran.r-project.org/package=piamModelTests)    
 
@@ -46,8 +46,9 @@ In case of questions / problems please contact Jan Philipp Dietrich <dietrich@pi
 
 To cite package **piamModelTests** in publications use:
 
-Dietrich J, Auer C, Giannousakis A, Bertram C, Benke F, Humpenoeder F, Baumstark L (2021). _piamModelTests: piamModelTests Tools_.
-R package version 0.31.1.
+Dietrich J, Auer C, Giannousakis A, Bertram C, Benke F, Humpenoeder F,
+Baumstark L (2021). _piamModelTests: piamModelTests Tools_. R package
+version 0.31.2.
 
 A BibTeX entry for LaTeX users is
 
@@ -56,7 +57,7 @@ A BibTeX entry for LaTeX users is
   title = {piamModelTests: piamModelTests Tools},
   author = {Jan Philipp Dietrich and Cornelia Auer and Anastasis Giannousakis and Christoph Bertram and Falk Benke and Florian Humpenoeder and Lavinia Baumstark},
   year = {2021},
-  note = {R package version 0.31.1},
+  note = {R package version 0.31.2},
 }
 ```
 

@@ -1,0 +1,5 @@
+variable;unit;min;max;Definition
+Nutrition|Calorie Supply;kcal/capita/day;0;;all food demand in calories (conversion factor: 1 kcal = 4,1868 kJ)
+Nutrition|Calorie Supply|+|Crops;kcal/capita/day;0;;crop related food demand in calories
+Nutrition|Calorie Supply|+|Livestock products;kcal/capita/day;0;;livestock related food demand in calories
+Population;million;0;;total population
