@@ -1,8 +1,8 @@
 Package: piamModelTests
 Type: Package
 Title: piamModelTests Tools
-Version: 0.31.2
-Date: 2021-06-09
+Version: 0.31.3
+Date: 2021-08-11
 Authors@R: c(person("Jan Philipp", "Dietrich", email = "dietrich@pik-potsdam.de", role = c("aut","cre")),
              person("Cornelia", "Auer", role = "aut"),
              person("Anastasis", "Giannousakis", role = "aut"),
