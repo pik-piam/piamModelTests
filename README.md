@@ -1,8 +1,8 @@
 # piamModelTests Tools
 
-R package **piamModelTests**, version **0.31.3**
+R package **piamModelTests**, version **0.31.4**
 
-[![CRAN status](https://www.r-pkg.org/badges/version/piamModelTests)](https://cran.r-project.org/package=piamModelTests)     [![r-universe](https://pik-piam.r-universe.dev/badges/piamModelTests)](https://pik-piam.r-universe.dev/ui#builds)
+[![CRAN status](https://www.r-pkg.org/badges/version/piamModelTests)](https://cran.r-project.org/package=piamModelTests)  [![R build status](https://github.com/pik-piam/piamModelTests/workflows/check/badge.svg)](https://github.com/pik-piam/piamModelTests/actions) [![codecov](https://codecov.io/gh/pik-piam/piamModelTests/branch/master/graph/badge.svg)](https://app.codecov.io/gh/pik-piam/piamModelTests) [![r-universe](https://pik-piam.r-universe.dev/badges/piamModelTests)](https://pik-piam.r-universe.dev/builds)
 
 ## Purpose and Functionality
 
@@ -46,7 +46,7 @@ In case of questions / problems please contact Jan Philipp Dietrich <dietrich@pi
 
 To cite package **piamModelTests** in publications use:
 
-Dietrich J, Auer C, Giannousakis A, Bertram C, Benke F, Humpenoeder F, Baumstark L (2021). _piamModelTests: piamModelTests Tools_. R package version 0.31.3.
+Dietrich J, Auer C, Giannousakis A, Bertram C, Benke F, Humpenoeder F, Baumstark L (2023). _piamModelTests: piamModelTests Tools_. R package version 0.31.4.
 
 A BibTeX entry for LaTeX users is
 
@@ -54,8 +54,7 @@ A BibTeX entry for LaTeX users is
 @Manual{,
   title = {piamModelTests: piamModelTests Tools},
   author = {Jan Philipp Dietrich and Cornelia Auer and Anastasis Giannousakis and Christoph Bertram and Falk Benke and Florian Humpenoeder and Lavinia Baumstark},
-  year = {2021},
-  note = {R package version 0.31.3},
+  year = {2023},
+  note = {R package version 0.31.4},
 }
 ```
-
