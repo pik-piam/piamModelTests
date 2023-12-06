@@ -109,6 +109,13 @@ write.reportProject <- function(mif, mapping,
           tmp <- write.report(new_data[[i]][[model]], file = NULL,
                               model = model, scenario = scenario,
                               extracols = "Item")
+          if (!is.null(a)) {
+            if (length(a) != length(tmp)) {
+              commonCols <- intersect(colnames(a), colnames(tmp))
+              a   <- a[, commonCols]
+              tmp <- tmp[, commonCols]
+            }
+          }
           a <- rbind(a, tmp)
         }
       } else {
